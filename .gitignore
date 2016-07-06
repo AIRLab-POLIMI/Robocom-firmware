@@ -1,0 +1,6 @@
+build/
+generated/
+RemoteSystemsTempFiles/
+.metadata/
+sources/targets/usb_gateway/ros_lib/
+setup.sh

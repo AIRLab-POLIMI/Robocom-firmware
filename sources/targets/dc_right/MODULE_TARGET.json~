@@ -1,0 +1,10 @@
+{
+  "name": "dc_right",
+  "description": "dc_right",
+  "module": "dc",
+  "required_packages": ["pid", "pid_msg"],
+  "sources": [
+    "main.cpp"
+  ],
+  "includes": []
+}
