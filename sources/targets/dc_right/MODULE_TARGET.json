@@ -2,7 +2,7 @@
   "name": "dc_right",
   "description": "dc_right",
   "module": "dc",
-  "required_packages": ["pid", "pid_msgs"],
+  "required_packages": [ "pid_msgs"],
   "sources": [
     "main.cpp"
   ],

@@ -18,6 +18,5 @@ SET( PROJECT_SOURCES
 core_target_module(
   MODULE dc
   PACKAGES
-    pid
     pid_msgs
 )

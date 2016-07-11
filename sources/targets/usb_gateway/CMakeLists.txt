@@ -23,6 +23,8 @@ SET( PROJECT_SOURCES
 core_target_module(
   MODULE usb
   PACKAGES
+    actuator_msgs
     differential_drive_msgs
     differential_drive_kinematics
+    sensor_msgs
 )

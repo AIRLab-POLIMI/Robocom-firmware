@@ -2,7 +2,7 @@
   "name": "usb_gateway",
   "description": "usb_gateway",
   "module": "usb",
-  "required_packages": ["differential_drive_msgs", "differential_drive_kinematics"],
+  "required_packages": ["actuator_msgs", "differential_drive_msgs", "differential_drive_kinematics", "sensor_msgs"],
   "sources": [
     "main.cpp"
   ],

@@ -141,11 +141,11 @@ extern "C" {
 		module.add(inverse);
 
 		//Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, test_publisher_node, nullptr);
-		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, test_publisher_node2, nullptr);
-		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, test_subscriber_node, nullptr);
+		//Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, test_publisher_node2, nullptr);
+		//Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, test_subscriber_node, nullptr);
 
-		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, rosserial_pub_thread, nullptr);
-		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(2048), NORMALPRIO, rosserial_sub_thread, nullptr);
+		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(4096), NORMALPRIO, rosserial_pub_thread, nullptr);
+		Core::MW::Thread::create_heap(NULL, THD_WORKING_AREA_SIZE(4096), NORMALPRIO, rosserial_sub_thread, nullptr);
 
 		// ... and let's play!
 		module.setup();
