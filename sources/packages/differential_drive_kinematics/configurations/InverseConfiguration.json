@@ -1,0 +1,44 @@
+{
+  "name": "InverseConfiguration",
+  "description": "Inverse node configuration",
+  "namespace": "@",
+  "fields": [
+    {
+      "name": "topicInput",
+      "description": "Polar",
+      "type": "CHAR",
+      "size": 16
+    },
+    {
+      "name": "output_left",
+      "description": "Left Differential ",
+      "type": "CHAR",
+      "size": 16
+    },
+    {
+      "name": "output_right",
+      "description": "Right Differential",
+      "type": "CHAR",
+      "size": 16
+    },
+    {
+      "name": "distance",
+      "description": "distance btw wheels",
+      "type": "FLOAT32",
+      "size": 1
+    },
+    {
+      "name": "length_left",
+      "description": "left wheel length",
+      "type": "FLOAT32",
+      "size": 1
+    },
+    {
+      "name": "length_right",
+      "description": "right wheel length",
+      "type": "FLOAT32",
+      "size": 1
+    }
+    
+ ]
+}
