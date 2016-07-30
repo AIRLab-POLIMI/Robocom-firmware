@@ -120,16 +120,16 @@ extern "C" {
 		led_publisher.configuration["led"]   = (uint32_t)1;
 		led_subscriber.configuration["topic"] = led_publisher.configuration["topic"];
 
-		forward.configuration.distance = 1;
-		forward.configuration.length_left = 1;
-		forward.configuration.length_right = 1;
+		forward.configuration.distance = 3.75f;
+		forward.configuration.length_left = 1.41f;
+		forward.configuration.length_right = 1.57f;
 		forward.configuration.left_input = "enc_left";
 		forward.configuration.right_input = "enc_right";
 		forward.configuration.output = "odometry";
 
-		inverse.configuration.distance = 1;
-		inverse.configuration.length_left = 1;
-		inverse.configuration.length_right = 1;
+		inverse.configuration.distance = 3.75f;
+		inverse.configuration.length_left = 1.41f;
+		inverse.configuration.length_right = 1.57f;
 		inverse.configuration.topicInput = "cmd_vel";
 		inverse.configuration.output_left = "speed_left";
 		inverse.configuration.output_right = "speed_right";

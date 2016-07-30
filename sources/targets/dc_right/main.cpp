@@ -40,7 +40,7 @@ int main() {
 	module.initialize();
 
 	// Module configuration
-	module.qei.configuration.period = 50;
+	module.qei.configuration.period = 50.0f;
 	module.qei.configuration.ticks = 48.0f * 3.0f * 3.14f;
 
 	// Nodes configuration
@@ -50,14 +50,14 @@ int main() {
 
 	motor_speed.configuration.encoder_topic = encoder.configuration.topic;
 	motor_speed.configuration.setpoint_topic = "speed_right";
-	motor_speed.configuration.idle = 0;
-	motor_speed.configuration.kp = 0.04;
-	motor_speed.configuration.ti = 0.0;
-	motor_speed.configuration.td = 0.0;
-	motor_speed.configuration.ts = module.qei.configuration.period / 1000.0;
-	motor_speed.configuration.max = 1.0;
-	motor_speed.configuration.min = -1.0;
-	motor_speed.configuration.timeout = 1000;
+	motor_speed.configuration.idle = 0.0f;
+	motor_speed.configuration.kp = 0.0077f;
+	motor_speed.configuration.ti = 0.016f;
+	motor_speed.configuration.td = 0.0f;
+	motor_speed.configuration.ts = module.qei.configuration.period / 1000.0f;
+	motor_speed.configuration.max = 1.0f;
+	motor_speed.configuration.min = -1.0f;
+	motor_speed.configuration.timeout = 1000.0f;
 
 #if 0
 	//Must set PID parameters

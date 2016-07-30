@@ -130,13 +130,8 @@ void cmd_vel_cb( const geometry_msgs::Twist& cmd_vel_msg){
 	differential_drive_msgs::Velocity * msgp;
 
 	if (velocity_pub.alloc(msgp)) {
-		//msgp->linear = cmd_vel_msg.linear.x;
-		//msgp->angular = cmd_vel_msg.angular.z;
 		msgp->linear = cmd_vel_msg.linear.x;
 		msgp->angular = cmd_vel_msg.angular.z;
-
-		if ((msgp->linear > 10000) || (msgp->linear < -10000)) msgp->linear = 0;
-		if ((msgp->angular > 10000) || (msgp->angular < -10000)) msgp->angular = 0;
 
 		velocity_pub.publish(*msgp);
 	}

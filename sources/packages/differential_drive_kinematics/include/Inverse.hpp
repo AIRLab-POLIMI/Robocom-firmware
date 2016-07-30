@@ -52,7 +52,7 @@ private:
 
 
 private:
-      Core::MW::Subscriber<differential_drive_msgs::Velocity, 2> _subscriber;
+      Core::MW::Subscriber<differential_drive_msgs::Velocity, 5> _subscriber;
       Core::MW::Publisher<actuator_msgs::Setpoint_f32> _left_wheel_publisher;
       Core::MW::Publisher<actuator_msgs::Setpoint_f32> _right_wheel_publisher;
    };

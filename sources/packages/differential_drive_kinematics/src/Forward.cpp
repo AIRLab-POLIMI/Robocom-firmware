@@ -35,7 +35,7 @@ namespace differential_drive_kinematics {
 		_subscriber_right.set_callback(Forward::callback_right);
 
 		this->subscribe(_subscriber_left, configuration.left_input);
-		this->subscribe(_subscriber_left, configuration.right_input);
+		this->subscribe(_subscriber_right, configuration.right_input);
 		this->advertise(_publisher, configuration.output);
 
 		return true;
