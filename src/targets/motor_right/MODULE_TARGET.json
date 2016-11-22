@@ -1,0 +1,10 @@
+{
+  "name": "motor_right",
+  "description": "motor_right",
+  "module": "dc",
+  "required_packages": [],
+  "sources": [
+    "main.cpp"
+  ],
+  "includes": []
+}
