@@ -4,7 +4,10 @@
   "module": "usb",
   "required_packages": [],
   "sources": [
-    "main.cpp"
+	"main.cpp",
+	"rosserial.cpp"
   ],
-  "includes": []
+  "includes": [
+	"ros_lib"
+]
 }

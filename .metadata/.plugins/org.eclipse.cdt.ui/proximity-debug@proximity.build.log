@@ -1,0 +1,20 @@
+17:54:26 **** Incremental Build of project proximity-debug@proximity ****
+/usr/bin/make -j8 all 
+/usr/bin/cmake -H/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity -B/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+/usr/bin/make -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/depend
+make[2]: Entering directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+cd /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/firmware.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+/usr/bin/make -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/build
+make[2]: Entering directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+make[2]: Nothing to be done for 'CMakeFiles/firmware.dir/build'.
+make[2]: Leaving directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+[100%] Built target firmware
+make[1]: Leaving directory '/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity'
+/usr/bin/cmake -E cmake_progress_start /home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles 0
+
+17:54:26 Build Finished (took 181ms)
+

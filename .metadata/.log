@@ -1,0 +1,530 @@
+!SESSION 2016-11-23 17:26:33.197 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:33:24.997
+!MESSAGE Indexed 'motor_left' (1 sources, 0 headers) in 0.424 sec: 11 declarations; 29 references; 9 unresolved inclusions; 0 syntax errors; 77 unresolved names (66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:33:25.029
+!MESSAGE Indexed 'motor_right' (1 sources, 0 headers) in 0.024 sec: 11 declarations; 29 references; 9 unresolved inclusions; 0 syntax errors; 77 unresolved names (66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:33:25.049
+!MESSAGE Indexed 'proximity' (1 sources, 0 headers) in 0.015 sec: 4 declarations; 11 references; 4 unresolved inclusions; 0 syntax errors; 33 unresolved names (69%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:33:25.076
+!MESSAGE Indexed 'usb' (1 sources, 0 headers) in 0.023 sec: 7 declarations; 20 references; 5 unresolved inclusions; 0 syntax errors; 44 unresolved names (62%)
+!SESSION 2016-11-23 17:33:57.983 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-23 17:42:43.894
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2016-11-23 17:42:43.899
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:36.291
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:36.357
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:45:36.892
+!MESSAGE Indexed 'motor_left-debug@motor_left' (1 sources, 257 headers) in 5.7 sec: 17,148 declarations; 27,265 references; 0 unresolved inclusions; 4 syntax errors; 10 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:39.683
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:39.685
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:45:39.996
+!MESSAGE Indexed 'motor_right-debug@motor_right' (1 sources, 257 headers) in 3.1 sec: 17,148 declarations; 27,265 references; 0 unresolved inclusions; 4 syntax errors; 10 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:42.249
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:42.250
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:45:42.394
+!MESSAGE Indexed 'proximity-debug@proximity' (1 sources, 231 headers) in 2.4 sec: 16,305 declarations; 25,294 references; 0 unresolved inclusions; 4 syntax errors; 10 unresolved names (0.024%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:44.561
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-11-23 17:45:44.562
+!MESSAGE Error: <anonymous> is not a member of ArrayTraits
+!STACK 0
+java.lang.IllegalArgumentException: <anonymous> is not a member of ArrayTraits
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.invalidMember(ClassTypeHelper.java:1164)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.ClassTypeHelper.getVisibility(ClassTypeHelper.java:1088)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassTemplate.getVisibility(CPPClassTemplate.java:262)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.getVisibility(PDOMCPPLinkage.java:806)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addChild(PDOMCPPLinkage.java:817)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:768)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addTypeBinding(PDOMCPPLinkage.java:1485)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalBinding(TypeMarshalBuffer.java:89)
+	at org.eclipse.cdt.internal.core.pdom.dom.TypeMarshalBuffer.marshalType(TypeMarshalBuffer.java:136)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:444)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.storeType(PDOMLinkage.java:438)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.setType(PDOMCPPTypedef.java:59)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPTypedef.<init>(PDOMCPPTypedef.java:43)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.createBinding(PDOMCPPLinkage.java:763)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:603)
+	at org.eclipse.cdt.internal.core.pdom.dom.cpp.PDOMCPPLinkage.addBinding(PDOMCPPLinkage.java:546)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.createPDOMName(PDOMFile.java:515)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMFile.addNames(PDOMFile.java:482)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.addFileContent(WritablePDOM.java:154)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.setFileContent(WritableCIndex.java:86)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeFileInIndex(PDOMWriter.java:630)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:320)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:279)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1293)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1104)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:899)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-23 17:45:44.738
+!MESSAGE Indexed 'usb-debug@usb' (1 sources, 248 headers) in 2.34 sec: 17,460 declarations; 27,027 references; 0 unresolved inclusions; 4 syntax errors; 10 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2016-11-23 17:50:16.398
+!MESSAGE Error with command: arm-none-eabi-gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "arm-none-eabi-gdb": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:523)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2016-11-23 17:59:31.296
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+symbol-file /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware
+
+Error message from debugger back end:
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2016-11-23 17:59:31.298
+!MESSAGE Failed to execute MI command:
+symbol-file /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware
+
+Error message from debugger back end:
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+!STACK 0
+java.lang.Exception: /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2016-11-23 18:00:11.086
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+symbol-file /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware
+
+Error message from debugger back end:
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2016-11-23 18:00:11.090
+!MESSAGE Failed to execute MI command:
+symbol-file /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware
+
+Error message from debugger back end:
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+!STACK 0
+java.lang.Exception: /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/firmware: No such file or directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2016-11-23 18:05:40.238
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Connection reset by peer.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: Connection reset by peer.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2016-11-23 18:05:40.238
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Connection reset by peer.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: Connection reset by peer.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2016-11-23 18:18:01.697
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Broken pipe.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: Broken pipe.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2016-11-23 18:18:01.698
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Broken pipe.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: Broken pipe.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SESSION 2016-12-02 17:27:22.317 -----------------------------------------------
+eclipse.buildId=4.7.0.I20160915-0230
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-02 17:27:31.314
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 0 2016-12-02 17:27:41.249
+!MESSAGE While loading class "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1", thread "Thread[Worker-1,5,main]" timed out waiting (5013ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.egit.ui_4.4.1.201607150455-r [146]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="4.4.1.201607150455-r"; osgi.identity="org.eclipse.egit.ui"; singleton:="true" [id=146] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 13 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

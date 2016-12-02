@@ -1,0 +1,6 @@
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/edit_cache.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/rebuild_cache.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/firmware.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/firmware.hex.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/firmware.bin.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/CMakeFiles/flash.dir

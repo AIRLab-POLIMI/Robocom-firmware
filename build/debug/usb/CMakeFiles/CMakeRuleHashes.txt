@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+a962ad9802a1fd16f004aef75e8b2e86 CMakeFiles/firmware.bin
+e1bcef8b83195064d411e0a69267bd71 CMakeFiles/firmware.hex
+0a28c7e1445e5e394151ff8fce043ad2 CMakeFiles/flash

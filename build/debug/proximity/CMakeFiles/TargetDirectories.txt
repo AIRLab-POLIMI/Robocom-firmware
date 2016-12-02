@@ -1,0 +1,6 @@
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/edit_cache.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/rebuild_cache.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/firmware.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/firmware.hex.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/firmware.bin.dir
+/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity/CMakeFiles/flash.dir
