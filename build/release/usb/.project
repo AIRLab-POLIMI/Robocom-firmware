@@ -589,6 +589,26 @@
 			<location>/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp</location>
 		</link>
 		<link>
+			<name>[Targets]/[exe] firmware/Source Files/core-transport-debug.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] firmware/Source Files/DebugTransport.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] firmware/Source Files/DebugPublisher.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] firmware/Source Files/DebugSubscriber.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp</location>
+		</link>
+		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-hw.cpp</name>
 			<type>1</type>
 			<location>/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp</location>
@@ -657,6 +677,16 @@
 			<name>[Targets]/[exe] firmware/Source Files/rosserial.cpp</name>
 			<type>1</type>
 			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] firmware/Source Files/duration.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] firmware/Source Files/time.cpp</name>
+			<type>1</type>
+			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Header Files</name>

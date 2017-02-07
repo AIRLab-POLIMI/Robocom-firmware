@@ -25,6 +25,10 @@
 <pathentry kind="mac" name="USE_CORE_ASSERT" path="" value=""/>
 <pathentry kind="mac" name="CHPRINTF_USE_FLOAT" path="" value="TRUE"/>
 <pathentry kind="mac" name="USE_RTCANTRANSPORT" path="" value=""/>
+<pathentry kind="mac" name="USE_DEBUGTRANSPORT" path="" value=""/>
+<pathentry kind="mac" name="BOOTLOADER_SIZE" path="" value="0"/>
+<pathentry kind="mac" name="CONFIGURATION_SIZE" path="" value="0"/>
+<pathentry kind="mac" name="CORTEX_VTOR_INIT" path="" value="BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"/>
 <pathentry kind="mac" name="__STDC__" path="" value="1"/>
 <pathentry kind="mac" name="__STDC_HOSTED__" path="" value="1"/>
 <pathentry kind="mac" name="__GNUC__" path="" value="4"/>
@@ -398,6 +402,7 @@
 <pathentry include="/home/airlab/robocom/Core/core/core-mw/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/airlab/robocom/Core/core/core-mw/port/chibios/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/airlab/robocom/Core/core/core-transport-rtcan/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/airlab/robocom/Core/core/core-transport-debug/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/airlab/robocom/Core/core/core-hw/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/airlab/robocom/Core/core/core-hw/port/chibios/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/airlab/robocom/Core/core/core-utils/include" kind="inc" path="" system="true"/>

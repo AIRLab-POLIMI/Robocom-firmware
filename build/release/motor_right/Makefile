@@ -2529,6 +2529,114 @@ home/airlab/robocom/Core/core/core-os/src/core-os.cpp.s:
 	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/src/core-os.cpp.s
 .PHONY : home/airlab/robocom/Core/core/core-os/src/core-os.cpp.s
 
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.obj: home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.obj
+
+# target to build an object file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.i: home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.i
+
+# target to preprocess a source file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.s: home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.s
+
+# target to generate assembly for a file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.obj: home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.obj
+
+# target to build an object file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.i: home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.i
+
+# target to preprocess a source file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.s: home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.s
+
+# target to generate assembly for a file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.obj: home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.obj
+
+# target to build an object file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.i: home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.i
+
+# target to preprocess a source file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i
+
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.s: home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.s
+
+# target to generate assembly for a file
+home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s
+
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.obj: home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.obj
+
+# target to build an object file
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.i: home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.i
+
+# target to preprocess a source file
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i
+
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.s: home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s
+
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.s
+
+# target to generate assembly for a file
+home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s:
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s
+.PHONY : home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s
+
 home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.obj: home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj
 
 .PHONY : home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.obj
@@ -3371,6 +3479,18 @@ help:
 	@echo "... home/airlab/robocom/Core/core/core-os/src/core-os.obj"
 	@echo "... home/airlab/robocom/Core/core/core-os/src/core-os.i"
 	@echo "... home/airlab/robocom/Core/core/core-os/src/core-os.s"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.obj"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.i"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.s"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.obj"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.i"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.s"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.obj"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.i"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.s"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.obj"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.i"
+	@echo "... home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.s"
 	@echo "... home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.obj"
 	@echo "... home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.i"
 	@echo "... home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.s"

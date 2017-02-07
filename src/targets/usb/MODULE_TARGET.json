@@ -2,10 +2,12 @@
   "name": "usb",
   "description": "usb",
   "module": "usb",
-  "required_packages": [],
+  "required_packages": ["sensor_msgs","differential_drive_msgs"],
   "sources": [
 	"main.cpp",
-	"rosserial.cpp"
+	"rosserial.cpp",
+	"ros_lib/duration.cpp",
+    "ros_lib/time.cpp"
   ],
   "includes": [
 	"ros_lib"

@@ -2177,9 +2177,105 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/R
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj.provides.build: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj
 
 
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj: /home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj -c /home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp > CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.i
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.s
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.requires
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.provides: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.provides
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.provides.build: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj: /home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj -c /home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp > CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.i
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.s
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.requires
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.provides: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.provides
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.provides.build: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj: /home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj -c /home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp > CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.i
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.s
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.requires
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.provides: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.provides
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.provides.build: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj: /home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj -c /home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp > CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.i
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.s
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.requires
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.provides: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.provides
+
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.provides.build: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
+
+
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj: /home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj -c /home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.i: cmake_force
@@ -2203,7 +2299,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.ob
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj: /home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj -c /home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.i: cmake_force
@@ -2227,7 +2323,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj: /home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.i: cmake_force
@@ -2251,7 +2347,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.obj: /home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c.i: cmake_force
@@ -2275,7 +2371,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.obj: /home/airlab/robocom/Core/core/core-comm-can/src/hrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/src/hrt.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.i: cmake_force
@@ -2299,7 +2395,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c.ob
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.obj: /home/airlab/robocom/Core/core/core-comm-can/src/srt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/src/srt.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.i: cmake_force
@@ -2323,7 +2419,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/srt.c.ob
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.obj: /home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c.i: cmake_force
@@ -2347,7 +2443,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/ST
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.obj: /home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.obj   -c /home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c
 
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c.i: cmake_force
@@ -2371,7 +2467,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/platforms/ST
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp.i: cmake_force
@@ -2395,7 +2491,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp.i: cmake_force
@@ -2419,7 +2515,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.i: cmake_force
@@ -2443,7 +2539,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp
 
 CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.i: cmake_force
@@ -2467,7 +2563,7 @@ CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/
 
 CMakeFiles/firmware.dir/main.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/main.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/firmware.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/firmware.dir/main.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/main.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/main.cpp
 
 CMakeFiles/firmware.dir/main.cpp.i: cmake_force
@@ -2491,7 +2587,7 @@ CMakeFiles/firmware.dir/main.cpp.obj.provides.build: CMakeFiles/firmware.dir/mai
 
 CMakeFiles/firmware.dir/rosserial.cpp.obj: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/rosserial.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/firmware.dir/rosserial.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/firmware.dir/rosserial.cpp.obj"
 	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/rosserial.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.cpp
 
 CMakeFiles/firmware.dir/rosserial.cpp.i: cmake_force
@@ -2511,6 +2607,54 @@ CMakeFiles/firmware.dir/rosserial.cpp.obj.provides: CMakeFiles/firmware.dir/ross
 .PHONY : CMakeFiles/firmware.dir/rosserial.cpp.obj.provides
 
 CMakeFiles/firmware.dir/rosserial.cpp.obj.provides.build: CMakeFiles/firmware.dir/rosserial.cpp.obj
+
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/ros_lib/duration.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp > CMakeFiles/firmware.dir/ros_lib/duration.cpp.i
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/ros_lib/duration.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp -o CMakeFiles/firmware.dir/ros_lib/duration.cpp.s
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.requires
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.provides: CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.provides
+
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.provides.build: CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj
+
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj: /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/firmware.dir/ros_lib/time.cpp.obj"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/firmware.dir/ros_lib/time.cpp.obj -c /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware.dir/ros_lib/time.cpp.i"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp > CMakeFiles/firmware.dir/ros_lib/time.cpp.i
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware.dir/ros_lib/time.cpp.s"
+	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp -o CMakeFiles/firmware.dir/ros_lib/time.cpp.s
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.requires:
+
+.PHONY : CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.requires
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.provides: CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.provides.build
+.PHONY : CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.provides
+
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.provides.build: CMakeFiles/firmware.dir/ros_lib/time.cpp.obj
 
 
 # Object files for target firmware
@@ -2604,6 +2748,10 @@ firmware_OBJECTS = \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj" \
+"CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj" \
+"CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj" \
+"CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj" \
+"CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj" \
@@ -2617,7 +2765,9 @@ firmware_OBJECTS = \
 "CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp.obj" \
 "CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj" \
 "CMakeFiles/firmware.dir/main.cpp.obj" \
-"CMakeFiles/firmware.dir/rosserial.cpp.obj"
+"CMakeFiles/firmware.dir/rosserial.cpp.obj" \
+"CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj" \
+"CMakeFiles/firmware.dir/ros_lib/time.cpp.obj"
 
 # External object files for target firmware
 firmware_EXTERNAL_OBJECTS =
@@ -2711,6 +2861,10 @@ firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-r
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp.obj
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj
+firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj
@@ -2725,9 +2879,11 @@ firmware: CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom
 firmware: CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj
 firmware: CMakeFiles/firmware.dir/main.cpp.obj
 firmware: CMakeFiles/firmware.dir/rosserial.cpp.obj
+firmware: CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj
+firmware: CMakeFiles/firmware.dir/ros_lib/time.cpp.obj
 firmware: CMakeFiles/firmware.dir/build.make
 firmware: CMakeFiles/firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Linking CXX executable firmware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Linking CXX executable firmware"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/firmware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2824,6 +2980,10 @@ CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Co
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c.obj.requires
@@ -2838,6 +2998,8 @@ CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/ro
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/main.cpp.obj.requires
 CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/rosserial.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj.requires
+CMakeFiles/firmware.dir/requires: CMakeFiles/firmware.dir/ros_lib/time.cpp.obj.requires
 
 .PHONY : CMakeFiles/firmware.dir/requires
 

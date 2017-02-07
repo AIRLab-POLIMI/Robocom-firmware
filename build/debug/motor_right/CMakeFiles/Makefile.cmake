@@ -19,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_HW.cmake"
   "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_MW.cmake"
   "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_OS.cmake"
+  "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_Transport_Debug.cmake"
   "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_Transport_RTCAN.cmake"
   "/home/airlab/robocom/Core/core/core-cmake/FindNovaCore_Utils.cmake"
   "/home/airlab/robocom/Core/core/core-cmake/FindNova_RTCAN.cmake"

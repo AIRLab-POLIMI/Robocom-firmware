@@ -15,9 +15,14 @@ SET( PROJECT_INCLUDE_DIRECTORIES
 SET( PROJECT_SOURCES
   main.cpp
   rosserial.cpp
+  ros_lib/duration.cpp
+  ros_lib/time.cpp
 )
 
 core_target_module(
   MODULE usb
   OS_VERSION CHIBIOS_3
+  PACKAGES
+    sensor_msgs
+    differential_drive_msgs
 )

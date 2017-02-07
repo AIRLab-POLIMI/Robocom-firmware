@@ -9,6 +9,7 @@
 <includePath path="/home/airlab/robocom/Core/core/core-mw/include"/>
 <includePath path="/home/airlab/robocom/Core/core/core-mw/port/chibios/include" removed="true"/>
 <includePath path="/home/airlab/robocom/Core/core/core-transport-rtcan/include"/>
+<includePath path="/home/airlab/robocom/Core/core/core-transport-debug/include"/>
 <includePath path="/home/airlab/robocom/Core/core/core-hw/include"/>
 <includePath path="/home/airlab/robocom/Core/core/core-hw/port/chibios/include" removed="true"/>
 <includePath path="/home/airlab/robocom/Core/core/core-utils/include"/>
@@ -16,6 +17,8 @@
 <includePath path="/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32"/>
 <includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/common_msgs/include"/>
 <includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include"/>
+<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/sensor_msgs/include"/>
+<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/differential_drive_msgs/include"/>
 <includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/include"/>
 <includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx"/>
 <includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC"/>
@@ -435,5 +438,9 @@
 <definedSymbol symbol="__ARM_ARCH_7EM__=1"/>
 <definedSymbol symbol="__ARM_PCS_VFP=1"/>
 <definedSymbol symbol="__ARM_ARCH_EXT_IDIV__=1"/>
+<definedSymbol symbol="BOOTLOADER_SIZE=0"/>
+<definedSymbol symbol="CONFIGURATION_SIZE=0"/>
+<definedSymbol symbol="CORTEX_VTOR_INIT=BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"/>
+<definedSymbol symbol="USE_DEBUGTRANSPORT=1"/>
 </collector>
 </scannerInfo>

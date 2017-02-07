@@ -13,15 +13,19 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "BOOTLOADER_SIZE=0"
   "CHPRINTF_USE_FLOAT=TRUE"
+  "CONFIGURATION_SIZE=0"
   "CORE_ITERATE_PUBSUB=1"
   "CORE_MODULE_NAME=\"motor_right\""
   "CORE_USE_BOOTLOADER=0"
   "CORE_USE_BRIDGE_MODE=0"
   "CORTEX_USE_FPU=TRUE"
+  "CORTEX_VTOR_INIT=BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"
   "STM32F3"
   "STM32F303xx"
   "USE_CORE_ASSERT"
+  "USE_DEBUGTRANSPORT"
   "USE_RTCANTRANSPORT"
   )
 
@@ -35,6 +39,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/airlab/robocom/Core/core/core-mw/include"
   "/home/airlab/robocom/Core/core/core-mw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/include"
+  "/home/airlab/robocom/Core/core/core-transport-debug/include"
   "/home/airlab/robocom/Core/core/core-hw/include"
   "/home/airlab/robocom/Core/core/core-hw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-utils/include"
@@ -127,15 +132,19 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "BOOTLOADER_SIZE=0"
   "CHPRINTF_USE_FLOAT=TRUE"
+  "CONFIGURATION_SIZE=0"
   "CORE_ITERATE_PUBSUB=1"
   "CORE_MODULE_NAME=\"motor_right\""
   "CORE_USE_BOOTLOADER=0"
   "CORE_USE_BRIDGE_MODE=0"
   "CORTEX_USE_FPU=TRUE"
+  "CORTEX_VTOR_INIT=BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"
   "STM32F3"
   "STM32F303xx"
   "USE_CORE_ASSERT"
+  "USE_DEBUGTRANSPORT"
   "USE_RTCANTRANSPORT"
   )
 
@@ -149,6 +158,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/airlab/robocom/Core/core/core-mw/include"
   "/home/airlab/robocom/Core/core/core-mw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/include"
+  "/home/airlab/robocom/Core/core/core-transport-debug/include"
   "/home/airlab/robocom/Core/core/core-hw/include"
   "/home/airlab/robocom/Core/core/core-hw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-utils/include"
@@ -216,6 +226,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Time_.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Time_.cpp.obj"
   "/home/airlab/robocom/Core/core/core-os/src/Time.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/src/Time.cpp.obj"
   "/home/airlab/robocom/Core/core/core-os/src/core-os.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/src/core-os.cpp.obj"
+  "/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj"
+  "/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj"
+  "/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj"
+  "/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp.obj"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp" "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/motor_right/CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp.obj"
@@ -239,15 +253,19 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOTLOADER_SIZE=0"
   "CHPRINTF_USE_FLOAT=TRUE"
+  "CONFIGURATION_SIZE=0"
   "CORE_ITERATE_PUBSUB=1"
   "CORE_MODULE_NAME=\"motor_right\""
   "CORE_USE_BOOTLOADER=0"
   "CORE_USE_BRIDGE_MODE=0"
   "CORTEX_USE_FPU=TRUE"
+  "CORTEX_VTOR_INIT=BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"
   "STM32F3"
   "STM32F303xx"
   "USE_CORE_ASSERT"
+  "USE_DEBUGTRANSPORT"
   "USE_RTCANTRANSPORT"
   )
 
@@ -261,6 +279,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/airlab/robocom/Core/core/core-mw/include"
   "/home/airlab/robocom/Core/core/core-mw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-transport-rtcan/include"
+  "/home/airlab/robocom/Core/core/core-transport-debug/include"
   "/home/airlab/robocom/Core/core/core-hw/include"
   "/home/airlab/robocom/Core/core/core-hw/port/chibios/include"
   "/home/airlab/robocom/Core/core/core-utils/include"

@@ -7,6 +7,7 @@
 // --- NODES ------------------------------------------------------------------
 #include <core/led/Subscriber.hpp>
 #include <core/led/Publisher.hpp>
+#include "rosserial.hpp"
 
 // --- BOARD IMPL -------------------------------------------------------------
 
@@ -18,7 +19,7 @@ Module module;
 // --- NODES ------------------------------------------------------------------
 core::led::Subscriber led_subscriber("led_subscriber", core::os::Thread::PriorityEnum::LOWEST);
 core::led::Publisher  led_publisher("led_publisher");
-
+rosserial::RosSerialPublisher rosSerialPublisher("rosserial",core::os::Thread::PriorityEnum::NORMAL);
 /*
  * Application entry point.
  */
@@ -44,6 +45,7 @@ extern "C" {
       // Add nodes to the node manager (== board)...
       module.add(led_subscriber);
       module.add(led_publisher);
+      module.add(rosSerialPublisher);
 
       // ... and let's play!
       module.setup();

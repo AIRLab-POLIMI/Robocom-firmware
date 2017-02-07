@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/workspace/PATH/delimiter=\:
+environment/workspace/PATH/operation=replace
+environment/workspace/PATH/value=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin
+environment/workspace/append=true
+environment/workspace/appendContributed=true

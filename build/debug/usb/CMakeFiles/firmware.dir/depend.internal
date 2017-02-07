@@ -6601,6 +6601,306 @@ CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/src/Time.cpp.obj
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-os/src/core-os.cpp.obj
  /home/airlab/robocom/Core/core/core-os/src/core-os.cpp
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp.obj
+ /home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4_simd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmFunc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmInstr.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/include/st.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/ch.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chbsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcond.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdebug.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdynamic.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chevents.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chheap.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chlicense.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmboxes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmemcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmempools.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmsg.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmtx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chqueues.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chregistry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chschd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstats.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstreams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsys.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsystypes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chthreads.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtm.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chvt.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
+ /home/airlab/robocom/Core/core/core-base/include/core/Uncopyable.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/common.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/namespace.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BasePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Message.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MessagePtrQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MgmtMsg.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/NamingTraits.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Node.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemotePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemoteSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticList.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Subscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/SubscriberExtBuf.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Topic.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Utils.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/MemoryPool.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SpinEvent.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SysLock.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Thread.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Time.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/MemoryPool_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SpinEvent_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SysLock_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Thread_.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugPublisher.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/board.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/chconf.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp.obj
+ /home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4_simd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmFunc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmInstr.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_channels.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/include/st.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/ch.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chbsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcond.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdebug.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdynamic.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chevents.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chheap.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chlicense.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmboxes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmemcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmempools.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmsg.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmtx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chqueues.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chregistry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chschd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstats.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstreams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsys.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsystypes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chthreads.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtm.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chvt.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
+ /home/airlab/robocom/Core/core/core-base/include/core/Uncopyable.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/common.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/namespace.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BasePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriberQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BootMsg.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Message.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MessagePtrQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MgmtMsg.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/NamingTraits.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Node.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemotePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemoteSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticList.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Subscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/SubscriberExtBuf.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/TimestampedMsgPtrQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Topic.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Transport.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Utils.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticQueue_.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/MemoryPool.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Mutex.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Semaphore.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SpinEvent.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SysLock.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Thread.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Time.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/MemoryPool_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Mutex_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Semaphore_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SpinEvent_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SysLock_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Thread_.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugPublisher.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugTransport.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/board.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/chconf.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp.obj
+ /home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4_simd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmFunc.h
+ /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmInstr.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_channels.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/include/st.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+ /home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/ch.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chbsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcond.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdebug.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdynamic.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chevents.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chheap.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chlicense.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmboxes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmemcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmempools.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmsg.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmtx.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chqueues.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chregistry.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chschd.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsem.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstats.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstreams.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsys.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsystypes.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chthreads.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtm.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/include/chvt.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
+ /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
+ /home/airlab/robocom/Core/core/core-base/include/core/Uncopyable.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/common.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/namespace.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BasePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriberQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/BootMsg.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Checksummer.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Message.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MessagePtrQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/MgmtMsg.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Middleware.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/NamingTraits.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Node.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Publisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/ReMutex.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemotePublisher.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/RemoteSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticList.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Subscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/SubscriberExtBuf.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/TimestampedMsgPtrQueue.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Topic.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Transport.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/Utils.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticQueue_.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/MemoryPool.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Mutex.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/ScopedLock.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Semaphore.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SpinEvent.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/SysLock.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Thread.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Time.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/MemoryPool_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Mutex_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Semaphore_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SpinEvent_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SysLock_.hpp
+ /home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Thread_.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugPublisher.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/include/core/mw/transport/DebugTransport.hpp
+ /home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/board.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/chconf.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
+CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp.obj
+ /home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp
 CMakeFiles/firmware.dir/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp.obj
  /home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
  /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
@@ -7705,6 +8005,7 @@ CMakeFiles/firmware.dir/main.cpp.obj
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/Utils.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/namespace.hpp
+ /home/airlab/robocom/Core/core/core-os/include/core/os/Callback.hpp
  /home/airlab/robocom/Core/core/core-os/include/core/os/Condition.hpp
  /home/airlab/robocom/Core/core/core-os/include/core/os/IOChannel.hpp
  /home/airlab/robocom/Core/core/core-os/include/core/os/MemoryPool.hpp
@@ -7728,12 +8029,40 @@ CMakeFiles/firmware.dir/main.cpp.obj
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/chconf.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/halconf.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/usbcfg.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/common_msgs/include/core/common_msgs/Led.hpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/differential_drive_msgs/include/core/differential_drive_msgs/Velocity.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/Publisher.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/PublisherConfiguration.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/Subscriber.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/SubscriberConfiguration.hpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/sensor_msgs/include/core/sensor_msgs/Delta_f32.hpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/sensor_msgs/include/core/sensor_msgs/Proximity.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/main.cpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/CoreHardware.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/geometry_msgs/Twist.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/geometry_msgs/Vector3.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/duration.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/msg.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/node_handle.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/publisher.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/service_client.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/service_server.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/subscriber.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/time.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/Log.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/RequestParam.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/TopicInfo.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/std_msgs/Time.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.hpp
+CMakeFiles/firmware.dir/ros_lib/duration.cpp.obj
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/duration.h
+CMakeFiles/firmware.dir/ros_lib/time.cpp.obj
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/duration.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/ros/time.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp
 CMakeFiles/firmware.dir/rosserial.cpp.obj
  /home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
  /home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
@@ -7829,13 +8158,17 @@ CMakeFiles/firmware.dir/rosserial.cpp.obj
  /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
  /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
  /home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
+ /home/airlab/robocom/Core/core/core-base/include/core/Array.hpp
+ /home/airlab/robocom/Core/core/core-base/include/core/String.hpp
  /home/airlab/robocom/Core/core/core-base/include/core/Uncopyable.hpp
  /home/airlab/robocom/Core/core/core-base/include/core/common.hpp
  /home/airlab/robocom/Core/core/core-base/include/core/namespace.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/BasePublisher.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreMessage.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreNode.hpp
+ /home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreType.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/ICoreNode.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
  /home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
@@ -7875,6 +8208,9 @@ CMakeFiles/firmware.dir/rosserial.cpp.obj
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/halconf.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/mcuconf.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/include/usb/usbcfg.h
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/differential_drive_msgs/include/core/differential_drive_msgs/Velocity.hpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/sensor_msgs/include/core/sensor_msgs/Delta_f32.hpp
+ /home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/sensor_msgs/include/core/sensor_msgs/Proximity.hpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/CoreHardware.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/geometry_msgs/Twist.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/geometry_msgs/Vector3.h
@@ -7890,7 +8226,6 @@ CMakeFiles/firmware.dir/rosserial.cpp.obj
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/Log.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/RequestParam.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/rosserial_msgs/TopicInfo.h
- /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/std_msgs/ColorRGBA.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/std_msgs/Time.h
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.cpp
  /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.hpp

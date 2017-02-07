@@ -203,9 +203,6 @@ CHIBIOS_syscalls_syscalls.c:FILEPATH=/home/airlab/robocom/Core/core/chibios_3/os
 //Path to a program.
 CMAKE_AR:FILEPATH=/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-ar
 
-//Flags used by the assembler during release minsize builds.
-CMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
-
 //Flags used by the assembler during Release with Debug Info builds.
 CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
@@ -216,16 +213,8 @@ CMAKE_BUILD_TYPE:STRING=release
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//Flags used by the compiler during release builds for minimum
-// size.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
-
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
-
-//Flags used by the compiler during release builds for minimum
-// size.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Flags used by the compiler during release builds with debug info.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
@@ -248,9 +237,6 @@ CMAKE_ECLIPSE_MAKE_ARGUMENTS:STRING=-j8
 //The version of Eclipse. If Eclipse has not been found, 3.6 (Helios)
 // is assumed.
 CMAKE_ECLIPSE_VERSION:STRING=3.6 (Helios)
-
-//Flags used by the linker during release minsize builds.
-CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
@@ -391,6 +377,8 @@ CMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 CMAKE_ASM_FLAGS_DEBUG:INTERNAL=-ggdb
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL
 CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//asm compiler flags release
+CMAKE_ASM_FLAGS_MINSIZEREL:INTERNAL=
 //ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE
 CMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //asm compiler flags release
@@ -423,6 +411,8 @@ CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_DEBUG:INTERNAL=-Og -ggdb
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
 CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//cxx compiler flags release
+CMAKE_CXX_FLAGS_MINSIZEREL:INTERNAL=-Os -flto
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //cxx compiler flags release
@@ -439,6 +429,8 @@ CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_DEBUG:INTERNAL=-Og -ggdb
 //ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
 CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//c compiler flags release
+CMAKE_C_FLAGS_MINSIZEREL:INTERNAL=-Os -flto
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //c compiler flags release
@@ -461,6 +453,8 @@ CMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_DEBUG:INTERNAL=
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//linker flags release
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:INTERNAL=-flto
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //linker flags release
@@ -557,9 +551,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_Base:INTERNAL=[/home/airlab/robocom/Core/c
 //Details about finding NovaCore_HW
 FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_HW:INTERNAL=[/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp][/home/airlab/robocom/Core/core/core-hw/include;/home/airlab/robocom/Core/core/core-hw/port/chibios/include][v()]
 //Details about finding NovaCore_MW
-FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_MW:INTERNAL=[/home/airlab/robocom/Core/core/core-mw/src/core-mw.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/ArrayQueue_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/SimplePool_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/StaticList_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/StaticQueue_.cpp;/home/airlab/robocom/Core/core/core-mw/src/BasePublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriberQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/BootMsg.cpp;/home/airlab/robocom/Core/core/core-mw/src/Checksummer.cpp;/home/airlab/robocom/Core/core/core-mw/src/LocalPublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/LocalSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/MessagePtrQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/Message.cpp;/home/airlab/robocom/Core/core/core-mw/src/Middleware.cpp;/home/airlab/robocom/Core/core/core-mw/src/Node.cpp;/home/airlab/robocom/Core/core/core-mw/src/RemotePublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/RemoteSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/Topic.cpp;/home/airlab/robocom/Core/core/core-mw/src/Transport.cpp;/home/airlab/robocom/Core/core/core-mw/src/Utils.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreNode.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreNodeManager.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreConfiguration.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreConfigurationManager.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreModule.cpp;/home/airlab/robocom/Core/core/core-mw/src/UID.cpp;/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp][/home/airlab/robocom/Core/core/core-mw/include;/home/airlab/robocom/Core/core/core-mw/port/chibios/include;/home/airlab/robocom/Core/core/core-transport-rtcan/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_MW:INTERNAL=[/home/airlab/robocom/Core/core/core-mw/src/core-mw.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/ArrayQueue_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/SimplePool_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/StaticList_.cpp;/home/airlab/robocom/Core/core/core-mw/src/impl/StaticQueue_.cpp;/home/airlab/robocom/Core/core/core-mw/src/BasePublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriberQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/BootMsg.cpp;/home/airlab/robocom/Core/core/core-mw/src/Checksummer.cpp;/home/airlab/robocom/Core/core/core-mw/src/LocalPublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/LocalSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/MessagePtrQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/Message.cpp;/home/airlab/robocom/Core/core/core-mw/src/Middleware.cpp;/home/airlab/robocom/Core/core/core-mw/src/Node.cpp;/home/airlab/robocom/Core/core/core-mw/src/RemotePublisher.cpp;/home/airlab/robocom/Core/core/core-mw/src/RemoteSubscriber.cpp;/home/airlab/robocom/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp;/home/airlab/robocom/Core/core/core-mw/src/Topic.cpp;/home/airlab/robocom/Core/core/core-mw/src/Transport.cpp;/home/airlab/robocom/Core/core/core-mw/src/Utils.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreNode.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreNodeManager.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreConfiguration.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreConfigurationManager.cpp;/home/airlab/robocom/Core/core/core-mw/src/CoreModule.cpp;/home/airlab/robocom/Core/core/core-mw/src/UID.cpp;/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp][/home/airlab/robocom/Core/core/core-mw/include;/home/airlab/robocom/Core/core/core-mw/port/chibios/include;/home/airlab/robocom/Core/core/core-transport-rtcan/include;/home/airlab/robocom/Core/core/core-transport-debug/include][v()]
 //Details about finding NovaCore_OS
 FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_OS:INTERNAL=[/home/airlab/robocom/Core/core/core-os/src/core-os.cpp;/home/airlab/robocom/Core/core/core-os/src/Time.cpp;/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Time_.cpp;/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Stubs.cpp][/home/airlab/robocom/Core/core/core-os/include;/home/airlab/robocom/Core/core/core-os/port/chibios/include][v()]
+//Details about finding NovaCore_Transport_Debug
+FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_Transport_Debug:INTERNAL=[/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp;/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp][/home/airlab/robocom/Core/core/core-transport-debug/include][v()]
 //Details about finding NovaCore_Transport_RTCAN
 FIND_PACKAGE_MESSAGE_DETAILS_NovaCore_Transport_RTCAN:INTERNAL=[/home/airlab/robocom/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp;/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp][/home/airlab/robocom/Core/core/core-transport-rtcan/include][v()]
 //Details about finding NovaCore_Utils

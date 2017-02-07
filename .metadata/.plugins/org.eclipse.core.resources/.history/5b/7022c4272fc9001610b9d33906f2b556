@@ -1,0 +1,13 @@
+{
+  "name": "usb",
+  "description": "usb",
+  "module": "usb",
+  "required_packages": ["sensor_msgs","Proximity_msgs","Velocity_msgs"],
+  "sources": [
+	"main.cpp",
+	"rosserial.cpp"
+  ],
+  "includes": [
+	"ros_lib"
+]
+}
