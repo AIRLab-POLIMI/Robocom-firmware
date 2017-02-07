@@ -1,0 +1,45 @@
+#Installare rosserial
+sudo apt install ros-kinetic-rosserial
+
+#disinstallare modemmanager
+sudo apt purge modemmanager
+
+#compilare un workspace con dentro rosserial_core
+...
+catkin_make
+
+#Add user to dialout
+sudo adduser airlab dialout
+
+#Aggiungi il device seriale su usb al tuo utente
+sudo chown airlab /dev/ttyACM0
+
+#Lancia il nodo di rosserial per comunicare via usb
+roslaunch rosserial_core serial_node.launch
+
+#generare la libreria rosserial all'interno del modulo usb
+cd <target/usb>
+rosrun rosserial_core make_libraries.py .
+
+#QUELLO CHE DEVO FARE E' MODIFICARE onloop (e tutti i messagi che gestisce) in rosserial.cpp (e .hpp) al fine di gestire tutti i messaggi. rosserial fa da servere e deve gestire una serie di funzioni di callback asincrone attivate da degli handler dei messaggi. occhio che i publisher e subscriber di ROS parlano sulla seriale mentre quelli di nova parlano sul bus (e partono con underscore) (nova prima era r2p)
+
+#Vedi triskar dentro packages
+//Core msgs
+#include <core/sensor_msgs/Proximity.hpp> -> vanno solo aggiunti nel json
+#include <core/sensor_msgs/Delta_f32.hpp>  -> vanno solo aggiunti nel json
+#include <core/triskar_msgs/Velocity.hpp> ->  vanno solo aggiunti nel json
+# gli altri messaggi vanno aggiunti in src/packages/XXX_msgs/
+
+ogni volta che cambi il json CoreWorkspace.py generate
+
+quando committo non aggiungere rosli
+
+package_velocirty da includere nel module target va preso da codice old_robocom perché non è stato rilasciato
+
+DEVO CREARE UN MESSAGGIO PER PROXIMITY PERCHE QUELLO VECCHIO DI ROS NON VA BENE (SI CHIAMAVA IR). MESSAGGI NO LUNGHEZZA VARIABILE
+
+per flashare: lancio openocd da eclipse. Se dice 6 breakpoint 4 watchpoings va bene (boh)
+
+1) aprire openocd
+2) lanciare da debug il package da controllare
+3) lanciare roslaunch rosserial_core serial_node.launch
