@@ -1,7 +1,1 @@
 ros_lib/
-build/
-generate/
-RemoteSystemsTempFiles/
-setup.sh
-WORKSPACE.json
-.metadata/

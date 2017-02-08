@@ -1,6 +1,0 @@
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/edit_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/rebuild_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/firmware.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/firmware.hex.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/firmware.bin.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/flash.dir

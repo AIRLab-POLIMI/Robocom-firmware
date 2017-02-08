@@ -1,6 +1,0 @@
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/edit_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/rebuild_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/firmware.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/firmware.hex.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/firmware.bin.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/flash.dir

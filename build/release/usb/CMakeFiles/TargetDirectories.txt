@@ -1,6 +1,0 @@
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/edit_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/rebuild_cache.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/firmware.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/firmware.hex.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/firmware.bin.dir
-/home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/flash.dir
