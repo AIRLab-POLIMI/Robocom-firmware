@@ -51,11 +51,11 @@ extern "C" {
       led_subscriber.setConfiguration(led_subscriber_configuration);
 
       core::actuator_subscriber::Configuration motor_configuration;
-      motor_configuration.topic = "pwm";
+      motor_configuration.topic = "pwm_right";
       motor.setConfiguration(motor_configuration);
 
       core::sensor_publisher::Configuration encoder_configuration;
-      encoder_configuration.topic = "encoder";
+      encoder_configuration.topic = "encoder_right";
       encoder.setConfiguration(encoder_configuration);
 
       // ... and let's play!

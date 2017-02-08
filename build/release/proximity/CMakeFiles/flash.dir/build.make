@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity
+CMAKE_SOURCE_DIR = /home/rafael/Desktop/Robocom-firmware/src/targets/proximity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/proximity
+CMAKE_BINARY_DIR = /home/rafael/Desktop/Robocom-firmware/build/release/proximity
 
 # Utility rule file for flash.
 
@@ -71,6 +71,6 @@ CMakeFiles/flash.dir/clean:
 .PHONY : CMakeFiles/flash.dir/clean
 
 CMakeFiles/flash.dir/depend:
-	cd /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/proximity && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/proximity /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/proximity/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rafael/Desktop/Robocom-firmware/build/release/proximity && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Desktop/Robocom-firmware/src/targets/proximity /home/rafael/Desktop/Robocom-firmware/src/targets/proximity /home/rafael/Desktop/Robocom-firmware/build/release/proximity /home/rafael/Desktop/Robocom-firmware/build/release/proximity /home/rafael/Desktop/Robocom-firmware/build/release/proximity/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/flash.dir/depend
 

@@ -25,10 +25,6 @@
 <pathentry kind="mac" name="USE_CORE_ASSERT" path="" value=""/>
 <pathentry kind="mac" name="CHPRINTF_USE_FLOAT" path="" value="TRUE"/>
 <pathentry kind="mac" name="USE_RTCANTRANSPORT" path="" value=""/>
-<pathentry kind="mac" name="USE_DEBUGTRANSPORT" path="" value=""/>
-<pathentry kind="mac" name="BOOTLOADER_SIZE" path="" value="0"/>
-<pathentry kind="mac" name="CONFIGURATION_SIZE" path="" value="0"/>
-<pathentry kind="mac" name="CORTEX_VTOR_INIT" path="" value="BOOTLOADER_SIZE+CONFIGURATION_SIZE+CONFIGURATION_SIZE"/>
 <pathentry kind="mac" name="__STDC__" path="" value="1"/>
 <pathentry kind="mac" name="__STDC_HOSTED__" path="" value="1"/>
 <pathentry kind="mac" name="__GNUC__" path="" value="4"/>
@@ -394,119 +390,118 @@
 <pathentry kind="mac" name="__GNUC_STDC_INLINE__" path="" value="1"/>
 <pathentry kind="mac" name="__STRICT_ANSI__" path="" value="1"/>
 <pathentry kind="mac" name="__WCHAR_UNSIGNED__" path="" value="1"/>
-<pathentry include="/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-base/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-base/port/chibios/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-os/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-os/port/chibios/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-mw/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-mw/port/chibios/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-transport-rtcan/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-transport-debug/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-hw/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-hw/port/chibios/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-utils/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-comm-can/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/common_msgs/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/rt/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/osal/rt" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/common/ARMCMx" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/4.9.3/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/4.9.3/include-fixed" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/arm-none-eabi/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3/arm-none-eabi" kind="inc" path="" system="true"/>
-<pathentry include="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3/backward" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Robocom-firmware/src/targets/proximity" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-base/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-base/port/chibios/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-os/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-os/port/chibios/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-mw/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-mw/port/chibios/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-transport-rtcan/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-hw/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-hw/port/chibios/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-utils/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-comm-can/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/core-comm-can/platforms/STM32" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Robocom-firmware/generated/packages/common_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/rt/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/osal/rt" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/common/ARMCMx" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/4.9.3/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/4.9.3/include-fixed" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/arm-none-eabi/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3/arm-none-eabi" kind="inc" path="" system="true"/>
+<pathentry include="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/arm-none-eabi/include/c++/4.9.3/backward" kind="inc" path="" system="true"/>
 </storageModule>
 <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 <buildTargets>
 <target name=": edit_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>edit_cache</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>rebuild_cache</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="[exe] firmware" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>firmware</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="[exe] firmware/fast" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>firmware/fast</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="Build" path="[Targets]/[exe] firmware" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-C "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity" -j8</buildArguments>
+<buildArguments>-C "/home/rafael/Desktop/Robocom-firmware/build/debug/proximity" -j4</buildArguments>
 <buildTarget>firmware</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name="Clean" path="[Targets]/[exe] firmware" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/proximity" "/usr/bin/cmake" -P "CMakeFiles/firmware.dir/cmake_clean.cmake"</buildArguments>
+<buildArguments>-E chdir "/home/rafael/Desktop/Robocom-firmware/build/debug/proximity" "/usr/bin/cmake" -P "CMakeFiles/firmware.dir/cmake_clean.cmake"</buildArguments>
 <buildTarget></buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": firmware.hex" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>firmware.hex</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": firmware.bin" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>firmware.bin</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": flash" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>flash</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>all</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j8</buildArguments>
+<buildArguments>-j4</buildArguments>
 <buildTarget>clean</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
@@ -521,7 +516,7 @@
 <parser enabled="true"/>
 </buildOutputProvider>
 <scannerInfoProvider id="specsFile">
-<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc" useDefault="true"/>
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-gcc" useDefault="true"/>
 <parser enabled="true"/>
 </scannerInfoProvider>
 </profile>

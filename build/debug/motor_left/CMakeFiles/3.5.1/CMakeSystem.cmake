@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-4.4.0-47-generic")
+set(CMAKE_HOST_SYSTEM "Linux-4.4.0-31-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "4.4.0-47-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "4.4.0-31-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/airlab/robocom/Core/core/core-cmake/gcc_stm32.cmake")
+include("/home/rafael/Desktop/Core/core/core-cmake/gcc_stm32.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

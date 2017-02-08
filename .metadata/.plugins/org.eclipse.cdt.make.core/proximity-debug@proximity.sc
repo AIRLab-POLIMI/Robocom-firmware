@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity"/>
-<includePath path="/home/airlab/robocom/Core/core/core-base/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-base/port/chibios/include" removed="true"/>
-<includePath path="/home/airlab/robocom/Core/core/core-os/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-os/port/chibios/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-mw/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-mw/port/chibios/include" removed="true"/>
-<includePath path="/home/airlab/robocom/Core/core/core-transport-rtcan/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-hw/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-hw/port/chibios/include" removed="true"/>
-<includePath path="/home/airlab/robocom/Core/core/core-utils/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-comm-can/include"/>
-<includePath path="/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32"/>
-<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include"/>
-<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/common_msgs/include"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/include"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/include"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/osal/rt"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/common/ARMCMx"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1"/>
-<includePath path="/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2"/>
-<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include"/>
-<includePath path="/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/include"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed"/>
-<includePath path="/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"/>
+<includePath path="/home/rafael/Desktop/Robocom-firmware/src/targets/proximity"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-base/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-base/port/chibios/include" removed="true"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-os/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-os/port/chibios/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-mw/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-mw/port/chibios/include" removed="true"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-transport-rtcan/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-hw/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-hw/port/chibios/include" removed="true"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-utils/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-comm-can/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/core-comm-can/platforms/STM32"/>
+<includePath path="/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include"/>
+<includePath path="/home/rafael/Desktop/Robocom-firmware/generated/packages/common_msgs/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/rt/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/osal/rt"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/common/ARMCMx"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1"/>
+<includePath path="/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2"/>
+<includePath path="/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include"/>
+<includePath path="/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/include"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/include-fixed"/>
+<includePath path="/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>

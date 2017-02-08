@@ -1,4 +1,4 @@
-# Install script for directory: /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/motor_left
+# Install script for directory: /home/rafael/Desktop/Robocom-firmware/src/targets/motor_left
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_left/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rafael/Desktop/Robocom-firmware/build/release/motor_left/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/motor_right
+CMAKE_SOURCE_DIR = /home/rafael/Desktop/Robocom-firmware/src/targets/motor_right
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_right
+CMAKE_BINARY_DIR = /home/rafael/Desktop/Robocom-firmware/build/release/motor_right
 
 # Utility rule file for flash.
 
@@ -71,6 +71,6 @@ CMakeFiles/flash.dir/clean:
 .PHONY : CMakeFiles/flash.dir/clean
 
 CMakeFiles/flash.dir/depend:
-	cd /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_right && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/motor_right /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/motor_right /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_right /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_right /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/motor_right/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rafael/Desktop/Robocom-firmware/build/release/motor_right && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Desktop/Robocom-firmware/src/targets/motor_right /home/rafael/Desktop/Robocom-firmware/src/targets/motor_right /home/rafael/Desktop/Robocom-firmware/build/release/motor_right /home/rafael/Desktop/Robocom-firmware/build/release/motor_right /home/rafael/Desktop/Robocom-firmware/build/release/motor_right/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/flash.dir/depend
 

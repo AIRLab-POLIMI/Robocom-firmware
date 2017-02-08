@@ -34,11 +34,6 @@ extern "C" {
    {
       module.initialize();
 
-      // Add nodes to the node manager (== board)...
-      module.add(led_subscriber);
-      module.add(encoder);
-      module.add(motor);
-
       // Module configuration
       core::QEI_driver::QEI_DeltaConfiguration qei_configuration;
       qei_configuration.period = 50;
@@ -51,12 +46,17 @@ extern "C" {
       led_subscriber.setConfiguration(led_subscriber_configuration);
 
       core::actuator_subscriber::Configuration motor_configuration;
-      motor_configuration.topic = "pwm";
+      motor_configuration.topic = "pwm_left";
       motor.setConfiguration(motor_configuration);
 
       core::sensor_publisher::Configuration encoder_configuration;
-      encoder_configuration.topic = "encoder";
+      encoder_configuration.topic = "encoder_left";
       encoder.setConfiguration(encoder_configuration);
+
+      // Add nodes to the node manager (== board)...
+      module.add(led_subscriber);
+      module.add(encoder);
+      module.add(motor);
 
       // ... and let's play!
       module.setup();

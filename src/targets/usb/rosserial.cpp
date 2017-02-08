@@ -55,10 +55,10 @@ bool RosSerialPublisher::onPrepareMW() {
 
 
 	_subscriberEncoder[0].set_callback(encoderCallback_0);
-	subscribe(_subscriberEncoder[0], "encoder_0");
+	subscribe(_subscriberEncoder[0], "encoder_right");
 
 	_subscriberEncoder[1].set_callback(encoderCallback_1);
-	subscribe(_subscriberEncoder[1], "encoder_1");
+	subscribe(_subscriberEncoder[1], "encoder_left");
 
 	//_subscriberEncoder[2].set_callback(encoderCallback_2);
 	//subscribe(_subscriberEncoder[2], "encoder_2");

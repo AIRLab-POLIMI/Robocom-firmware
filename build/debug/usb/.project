@@ -43,11 +43,11 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.arguments</key>
-					<value>-j8</value>
+					<value>-j4</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildLocation</key>
-					<value>/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/usb</value>
+					<value>/home/rafael/Desktop/Robocom-firmware/build/debug/usb</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
@@ -83,7 +83,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.location</key>
-					<value>/home/airlab/robocom/robocom_controller/Robocom-firmware/build/debug/usb</value>
+					<value>/home/rafael/Desktop/Robocom-firmware/build/debug/usb</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
@@ -111,7 +111,7 @@
 		<link>
 			<name>[Source directory]</name>
 			<type>2</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb</location>
 		</link>
 		<link>
 			<name>[Subprojects]</name>
@@ -121,7 +121,7 @@
 		<link>
 			<name>[Subprojects]/usb</name>
 			<type>2</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb</location>
 		</link>
 		<link>
 			<name>[Targets]</name>
@@ -141,12 +141,12 @@
 		<link>
 			<name>[Targets]/[exe] firmware//crt0_v7m.s</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.s</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.s</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware//chcoreasm_v7m.s</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.s</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.s</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files</name>
@@ -156,537 +156,517 @@
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Module.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/src/Module.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/modules/usb/src/Module.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/board.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/src/board.c</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/modules/usb/src/board.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/usbcfg.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/usb/src/usbcfg.c</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/modules/usb/src/usbcfg.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/crt1.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/crt1.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/crt1.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/vectors.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/vectors.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/compilers/GCC/vectors.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chcore.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chcore_v7m.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chsys.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chsys.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chsys.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chdebug.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chdebug.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chdebug.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chvt.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chvt.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chvt.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chschd.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chschd.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chschd.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chthreads.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chthreads.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chthreads.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chtm.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chtm.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chtm.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chstats.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chstats.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chstats.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chdynamic.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chdynamic.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chdynamic.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chregistry.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chregistry.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chregistry.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chsem.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chsem.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chsem.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chmtx.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chmtx.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chmtx.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chcond.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chcond.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chcond.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chevents.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chevents.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chevents.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chmsg.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chmsg.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chmsg.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chmboxes.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chmboxes.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chmboxes.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chqueues.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chqueues.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chqueues.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chmemcore.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chmemcore.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chmemcore.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chheap.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chheap.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chheap.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chmempools.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/rt/src/chmempools.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/rt/src/chmempools.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/hal.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/hal.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/hal.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/hal_queues.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/hal_queues.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/hal_queues.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/osal.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/osal/rt/osal.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/osal/rt/osal.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/hal_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/hal_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/hal_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/stm32_dma.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/nvic.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/common/ARMCMx/nvic.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/common/ARMCMx/nvic.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/pal.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/pal.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/pal.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/pal_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/serial.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/serial.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/serial.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/serial_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/USARTv2/serial_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/USARTv2/serial_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/mmc_spi.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/mmc_spi.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/mmc_spi.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/spi.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/spi.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/spi.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/spi_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/SPIv2/spi_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/SPIv2/spi_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/serial_usb.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/serial_usb.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/serial_usb.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/usb.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/usb.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/usb.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/usb_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/USBv1/usb_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/USBv1/usb_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/uart.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/uart.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/uart.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/uart_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/USARTv2/uart_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/USARTv2/uart_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/chprintf.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/lib/streams/chprintf.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/lib/streams/chprintf.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/shell.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/various/shell.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/various/shell.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/syscalls.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/various/syscalls.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/various/syscalls.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/st.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/src/st.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/src/st.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/st_lld.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.c</location>
+			<location>/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-base.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-base/src/core-base.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-base/src/core-base.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-os.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-os/src/core-os.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-os/src/core-os.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Time.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-os/src/Time.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-os/src/Time.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Time_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Time_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/Time_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Stubs.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Stubs.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/Stubs.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-mw.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/core-mw.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/core-mw.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/ArrayQueue_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/impl/ArrayQueue_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/impl/ArrayQueue_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/SimplePool_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/impl/SimplePool_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/impl/SimplePool_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/StaticList_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/impl/StaticList_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/impl/StaticList_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/StaticQueue_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/impl/StaticQueue_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/impl/StaticQueue_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/BasePublisher.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/BasePublisher.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/BasePublisher.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/BaseSubscriber.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriber.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/BaseSubscriber.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/BaseSubscriberQueue.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriberQueue.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/BaseSubscriberQueue.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/BootMsg.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/BootMsg.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/BootMsg.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Checksummer.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Checksummer.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Checksummer.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/LocalPublisher.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/LocalPublisher.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/LocalPublisher.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/LocalSubscriber.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/LocalSubscriber.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/LocalSubscriber.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/MessagePtrQueue.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/MessagePtrQueue.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/MessagePtrQueue.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Message.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Message.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Message.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Middleware.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Middleware.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Middleware.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Node.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Node.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Node.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/RemotePublisher.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/RemotePublisher.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/RemotePublisher.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/RemoteSubscriber.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/RemoteSubscriber.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/RemoteSubscriber.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/TimestampedMsgPtrQueue.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Topic.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Topic.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Topic.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Transport.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Transport.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Transport.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Utils.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/Utils.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/Utils.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/CoreNode.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/CoreNode.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/CoreNode.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/CoreNodeManager.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/CoreNodeManager.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/CoreNodeManager.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/CoreConfiguration.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/CoreConfiguration.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/CoreConfiguration.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/CoreConfigurationManager.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/CoreConfigurationManager.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/CoreConfigurationManager.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/CoreModule.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/CoreModule.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/CoreModule.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/UID.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/src/UID.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/src/UID.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Middleware_.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-transport-rtcan.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/RTCANTransport.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANTransport.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/RTCANPublisher.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/RTCANSubscriber.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] firmware/Source Files/core-transport-debug.cpp</name>
-			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/core-transport-debug.cpp</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] firmware/Source Files/DebugTransport.cpp</name>
-			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugTransport.cpp</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] firmware/Source Files/DebugPublisher.cpp</name>
-			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugPublisher.cpp</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] firmware/Source Files/DebugSubscriber.cpp</name>
-			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-transport-debug/src/DebugSubscriber.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-hw.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-hw/src/core-hw.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/core-utils.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp</location>
+			<location>/home/rafael/Desktop/Core/core/core-utils/src/core-utils.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/rtcan.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/src/rtcan.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/src/rtcan.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/msgqueue.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/src/msgqueue.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/src/msgqueue.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/hrt.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/src/hrt.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/src/hrt.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/srt.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/src/srt.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/src/srt.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/rtcan_lld_can.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/platforms/STM32/rtcan_lld_can.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/rtcan_lld_tim.c</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c</location>
+			<location>/home/rafael/Desktop/Core/core/core-comm-can/platforms/STM32/rtcan_lld_tim.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Publisher.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/Publisher.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/Subscriber.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/Subscriber.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/PublisherConfiguration.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/SubscriberConfiguration.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/main.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/main.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb/main.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/rosserial.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/rosserial.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb/rosserial.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/duration.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb/ros_lib/duration.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Source Files/time.cpp</name>
 			<type>1</type>
-			<location>/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb/ros_lib/time.cpp</location>
+			<location>/home/rafael/Desktop/Robocom-firmware/src/targets/usb/ros_lib/time.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] firmware/Header Files</name>

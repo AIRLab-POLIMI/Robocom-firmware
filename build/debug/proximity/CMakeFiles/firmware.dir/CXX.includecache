@@ -6,129 +6,129 @@
 
 #IncludeRegexTransform: 
 
-/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/cmparams.h
 board.h
-/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/board.h
+/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/board.h
 stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/common/ports/ARMCMx/devices/STM32F3xx/stm32f3xx.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
 core_cm4.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/core_cm4.h
 system_stm32f3xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 stdint.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx.h
 stm32f301x8.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f301x8.h
 stm32f302x8.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302x8.h
 stm32f302xc.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f302xc.h
 stm32f303x8.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303x8.h
 stm32f303xc.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f303xc.h
 stm32f373xc.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f373xc.h
 stm32f334x8.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f334x8.h
 stm32f318xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f318xx.h
 stm32f328xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f328xx.h
 stm32f358xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f358xx.h
 stm32f378xx.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f378xx.h
 stm32f3xx_hal.h
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx_hal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/stm32f3xx_hal.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/ST/system_stm32f3xx.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4.h
 stdint.h
 -
 core_cmInstr.h
@@ -138,183 +138,183 @@ core_cmFunc.h
 core_cm4_simd.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4_simd.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include/core_cm4_simd.h
 cmsis_iar.h
 -
 cmsis_ccs.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmFunc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include/core_cmFunc.h
 cmsis_iar.h
 -
 cmsis_ccs.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/ext/CMSIS/include/core_cmInstr.h
+/home/rafael/Desktop/Core/core/chibios_3/os/ext/CMSIS/include/core_cmInstr.h
 cmsis_iar.h
 -
 cmsis_ccs.h
 -
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/adc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/adc.h
 adc_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/adc_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/adc_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/can.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/can.h
 can_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/can_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/can_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/dac.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/dac.h
 dac_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/dac_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/dac_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/ext.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/ext.h
 ext_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/ext_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/ext_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/gpt.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/gpt.h
 gpt_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/gpt_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/gpt_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal.h
 osal.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/osal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/osal.h
 board.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/board.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/board.h
 halconf.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/halconf.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/halconf.h
 hal_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_lld.h
 hal_streams.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_streams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_streams.h
 hal_channels.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_channels.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_channels.h
 hal_files.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_files.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_files.h
 hal_ioblock.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_ioblock.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_ioblock.h
 hal_mmcsd.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_mmcsd.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_mmcsd.h
 hal_queues.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_queues.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_queues.h
 pal.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pal.h
 adc.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/adc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/adc.h
 can.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/can.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/can.h
 dac.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/dac.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/dac.h
 ext.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/ext.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/ext.h
 gpt.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/gpt.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/gpt.h
 i2c.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2c.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2c.h
 i2s.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2s.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2s.h
 icu.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/icu.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/icu.h
 mac.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mac.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mac.h
 mii.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mii.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mii.h
 pwm.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pwm.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pwm.h
 rtc.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/rtc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/rtc.h
 serial.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/serial.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/serial.h
 sdc.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/sdc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/sdc.h
 spi.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/spi.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/spi.h
 uart.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/uart.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/uart.h
 usb.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/usb.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/usb.h
 st.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/st.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/st.h
 mmc_spi.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mmc_spi.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mmc_spi.h
 serial_usb.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/serial_usb.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/serial_usb.h
 hal_community.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_community.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_community.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_channels.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_channels.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_files.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_files.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_ioblock.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_ioblock.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_mmcsd.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_mmcsd.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_queues.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_queues.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/hal_streams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/hal_streams.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2c.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2c.h
 i2c_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2c_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2c_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2s.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2s.h
 i2s_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/i2s_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/i2s_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/icu.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/icu.h
 icu_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/icu_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/icu_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mac.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mac.h
 mac_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mac_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mac_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mii.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mii.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/mmc_spi.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/mmc_spi.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pal.h
 pal_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pal_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pal_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pwm.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pwm.h
 pwm_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/pwm_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/pwm_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/rtc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/rtc.h
 time.h
 -
 rtc_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/rtc_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/rtc_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/sdc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/sdc.h
 sdc_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/sdc_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/sdc_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/serial.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/serial.h
 serial_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/serial_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/serial_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/serial_usb.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/serial_usb.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/spi.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/spi.h
 spi_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/spi_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/spi_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/st.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/st.h
 st_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/st_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/st_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/uart.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/uart.h
 uart_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/uart_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/uart_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/usb.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/usb.h
 usb_lld.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/include/usb_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/include/usb_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/osal/rt/osal.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/osal/rt/osal.h
 stddef.h
 -
 stdint.h
@@ -322,191 +322,191 @@ stdint.h
 stdbool.h
 -
 ch.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/osal/rt/ch.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/osal/rt/ch.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/gpt_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/gpt_lld.h
 stm32_tim.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/icu_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/icu_lld.h
 stm32_tim.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/pwm_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/pwm_lld.h
 stm32_tim.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/st_lld.h
 mcuconf.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/mcuconf.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/mcuconf.h
 stm32_registry.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_registry.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_registry.h
 stm32_tim.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/can_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/can_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/ext_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/ext_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/mac_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/mac_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/LLD/sdc_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/LLD/sdc_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/adc_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/adc_lld.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/hal_lld.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/hal_lld.h
 stm32_registry.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
 nvic.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/nvic.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/nvic.h
 stm32_isr.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_isr.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_isr.h
 stm32_dma.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.h
 stm32_rcc.h
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_rcc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_rcc.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_dma.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_isr.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_isr.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_rcc.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_rcc.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/STM32/STM32F3xx/stm32_registry.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/hal/ports/common/ARMCMx/nvic.h
+/home/rafael/Desktop/Core/core/chibios_3/os/hal/ports/common/ARMCMx/nvic.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/ch.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/ch.h
 chtypes.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtypes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chtypes.h
 chconf.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chconf.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chconf.h
 chlicense.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chlicense.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chlicense.h
 chsystypes.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsystypes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsystypes.h
 chcore.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcore.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chcore.h
 chdebug.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdebug.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chdebug.h
 chtm.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtm.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chtm.h
 chstats.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstats.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chstats.h
 chschd.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chschd.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chschd.h
 chsys.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsys.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsys.h
 chvt.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chvt.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chvt.h
 chthreads.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chthreads.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chthreads.h
 chregistry.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chregistry.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chregistry.h
 chsem.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsem.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsem.h
 chbsem.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chbsem.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chbsem.h
 chmtx.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmtx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmtx.h
 chcond.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcond.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chcond.h
 chevents.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chevents.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chevents.h
 chmsg.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmsg.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmsg.h
 chmboxes.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmboxes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmboxes.h
 chmemcore.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmemcore.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmemcore.h
 chheap.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chheap.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chheap.h
 chmempools.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmempools.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmempools.h
 chdynamic.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdynamic.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chdynamic.h
 chqueues.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chqueues.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chqueues.h
 chstreams.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstreams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chstreams.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chbsem.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chbsem.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcond.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chcond.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdebug.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chdebug.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chdynamic.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chdynamic.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chevents.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chevents.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chheap.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chheap.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chlicense.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chlicense.h
 chcustomer.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcustomer.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chcustomer.h
 chcustomer.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chcustomer.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chcustomer.h
 chpartner.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chpartner.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chpartner.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmboxes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmboxes.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmemcore.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmemcore.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmempools.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmempools.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmsg.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmsg.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chmtx.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chmtx.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chqueues.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chqueues.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chregistry.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chregistry.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chschd.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chschd.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsem.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsem.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstats.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chstats.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chstreams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chstreams.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsys.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsys.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chsystypes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chsystypes.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chthreads.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chthreads.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chtm.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chtm.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/include/chvt.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/include/chvt.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore.h
 cmparams.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/cmparams.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/cmparams.h
 chcore_v6m.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
 chcore_v7m.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
 chcore_timer.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
 chcore_timer_alt.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer_alt.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer_alt.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_timer.h
 st.h
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/st.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/st.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v6m.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/chcore_v7m.h
 
-/home/airlab/robocom/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
+/home/rafael/Desktop/Core/core/chibios_3/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h
 stddef.h
 -
 stdint.h
@@ -514,7 +514,7 @@ stdint.h
 stdbool.h
 -
 
-/home/airlab/robocom/Core/core/core-base/include/core/Array.hpp
+/home/rafael/Desktop/Core/core/core-base/include/core/Array.hpp
 core/namespace.hpp
 -
 core/common.hpp
@@ -522,7 +522,7 @@ core/common.hpp
 memory
 -
 
-/home/airlab/robocom/Core/core/core-base/include/core/String.hpp
+/home/rafael/Desktop/Core/core/core-base/include/core/String.hpp
 core/namespace.hpp
 -
 core/common.hpp
@@ -530,11 +530,11 @@ core/common.hpp
 core/Array.hpp
 -
 
-/home/airlab/robocom/Core/core/core-base/include/core/Uncopyable.hpp
+/home/rafael/Desktop/Core/core/core-base/include/core/Uncopyable.hpp
 core/namespace.hpp
 -
 
-/home/airlab/robocom/Core/core/core-base/include/core/common.hpp
+/home/rafael/Desktop/Core/core/core-base/include/core/common.hpp
 cstddef
 -
 cstring
@@ -548,33 +548,33 @@ core/mw/Utils.hpp
 core/os/SysLock.hpp
 -
 
-/home/airlab/robocom/Core/core/core-base/include/core/namespace.hpp
+/home/rafael/Desktop/Core/core/core-base/include/core/namespace.hpp
 
-/home/airlab/robocom/Core/core/core-base/src/core-base.cpp
+/home/rafael/Desktop/Core/core/core-base/src/core-base.cpp
 
-/home/airlab/robocom/Core/core/core-comm-can/include/rtcan.h
+/home/rafael/Desktop/Core/core/core-comm-can/include/rtcan.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/GPIO.hpp
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/GPIO.hpp
 core/hw/namespace.hpp
 -
 core/hw/common.hpp
 -
 hal.h
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/hal.h
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/hal.h
 
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/IWDG.hpp
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/IWDG.hpp
 core/hw/namespace.hpp
 -
 core/hw/common.hpp
 -
 hal.h
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/hal.h
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/hal.h
 
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/UID.hpp
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/UID.hpp
 core/hw/namespace.hpp
 -
 core/hw/common.hpp
@@ -582,23 +582,23 @@ core/hw/common.hpp
 core/Array.hpp
 -
 hal.h
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/hal.h
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/hal.h
 
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/common.hpp
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/common.hpp
 cstddef
 -
 
-/home/airlab/robocom/Core/core/core-hw/include/core/hw/namespace.hpp
+/home/rafael/Desktop/Core/core/core-hw/include/core/hw/namespace.hpp
 
-/home/airlab/robocom/Core/core/core-hw/src/core-hw.cpp
+/home/rafael/Desktop/Core/core/core-hw/src/core-hw.cpp
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/ArrayQueue.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/BasePublisher.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/BasePublisher.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -610,7 +610,7 @@ core/mw/MgmtMsg.hpp
 core/mw/Topic.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/BaseSubscriber.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -624,7 +624,7 @@ core/os/MemoryPool.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/BaseSubscriberQueue.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/BaseSubscriberQueue.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -632,7 +632,7 @@ core/common.hpp
 core/mw/StaticQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/BootMsg.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/BootMsg.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -642,13 +642,13 @@ core/mw/Message.hpp
 core/mw/NamingTraits.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Checksummer.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Checksummer.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreConfiguration.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreConfiguration.hpp
 core/mw/namespace.hpp
 -
 core/mw/CoreType.hpp
@@ -666,7 +666,7 @@ initializer_list
 type_traits
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreConfigurationManager.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreConfigurationManager.hpp
 core/mw/namespace.hpp
 -
 core/mw/StaticList.hpp
@@ -674,13 +674,13 @@ core/mw/StaticList.hpp
 core/mw/CoreConfiguration.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreMessage.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreMessage.hpp
 core/mw/Message.hpp
 -
 core/mw/CoreType.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreModule.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreModule.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -690,7 +690,7 @@ core/mw/CoreNodeManager.hpp
 core/hw/UID.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreNode.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreNode.hpp
 core/mw/namespace.hpp
 -
 core/os/Thread.hpp
@@ -704,7 +704,7 @@ core/mw/Node.hpp
 core/mw/ICoreNode.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreNodeManager.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreNodeManager.hpp
 core/mw/namespace.hpp
 -
 core/mw/StaticList.hpp
@@ -712,7 +712,7 @@ core/mw/StaticList.hpp
 core/mw/CoreNode.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/CoreType.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/CoreType.hpp
 core/mw/namespace.hpp
 -
 core/Array.hpp
@@ -722,11 +722,11 @@ core/String.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/ICoreNode.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/ICoreNode.hpp
 core/mw/namespace.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/LocalPublisher.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -736,7 +736,7 @@ core/mw/BasePublisher.hpp
 core/mw/StaticList.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/LocalSubscriber.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -752,13 +752,13 @@ functional
 core/mw/Node.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Message.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Message.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/MessagePtrQueue.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/MessagePtrQueue.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -766,7 +766,7 @@ core/common.hpp
 core/mw/ArrayQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/MgmtMsg.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/MgmtMsg.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -776,7 +776,7 @@ core/mw/Message.hpp
 core/mw/NamingTraits.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Middleware.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Middleware.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -802,13 +802,13 @@ core/mw/Node.hpp
 core/mw/ReMutex.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/NamingTraits.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/NamingTraits.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Node.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Node.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -828,7 +828,7 @@ core/os/Thread.hpp
 core/mw/Subscriber.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Publisher.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Publisher.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -836,7 +836,7 @@ core/common.hpp
 core/mw/LocalPublisher.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/ReMutex.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/ReMutex.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -844,7 +844,7 @@ core/common.hpp
 core/os/Mutex.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/RemotePublisher.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/RemotePublisher.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -854,7 +854,7 @@ core/mw/BasePublisher.hpp
 core/mw/StaticList.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/RemoteSubscriber.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/RemoteSubscriber.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -862,7 +862,7 @@ core/common.hpp
 core/mw/BaseSubscriber.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticList.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/StaticList.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -870,13 +870,13 @@ core/common.hpp
 core/mw/impl/StaticList_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/StaticQueue.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/StaticQueue.hpp
 core/mw/namespace.hpp
 -
 core/mw/impl/StaticQueue_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Subscriber.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Subscriber.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -886,7 +886,7 @@ core/mw/SubscriberExtBuf.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/SubscriberExtBuf.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/SubscriberExtBuf.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -896,7 +896,7 @@ core/mw/LocalSubscriber.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/TimestampedMsgPtrQueue.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/TimestampedMsgPtrQueue.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -906,7 +906,7 @@ core/mw/ArrayQueue.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Topic.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Topic.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -930,7 +930,7 @@ core/mw/RemotePublisher.hpp
 core/mw/RemoteSubscriber.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Transport.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Transport.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -946,33 +946,33 @@ core/mw/NamingTraits.hpp
 core/mw/Message.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/Utils.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/Utils.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/SimplePool_.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/impl/SimplePool_.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/impl/StaticList_.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/impl/StaticQueue_.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/impl/StaticQueue_.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/include/core/mw/namespace.hpp
+/home/rafael/Desktop/Core/core/core-mw/include/core/mw/namespace.hpp
 
-/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp
+/home/rafael/Desktop/Core/core/core-mw/port/chibios/src/impl/Middleware_.cpp
 core/mw/namespace.hpp
 -
 core/mw/Middleware.hpp
@@ -982,11 +982,11 @@ core/mw/CoreModule.hpp
 core/hw/IWDG.hpp
 -
 ch.h
-/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/ch.h
+/home/rafael/Desktop/Core/core/core-mw/port/chibios/src/impl/ch.h
 hal.h
-/home/airlab/robocom/Core/core/core-mw/port/chibios/src/impl/hal.h
+/home/rafael/Desktop/Core/core/core-mw/port/chibios/src/impl/hal.h
 
-/home/airlab/robocom/Core/core/core-mw/src/BasePublisher.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/BasePublisher.cpp
 core/mw/namespace.hpp
 -
 core/mw/BasePublisher.hpp
@@ -996,7 +996,7 @@ core/mw/Topic.hpp
 core/mw/Message.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriber.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/BaseSubscriber.cpp
 core/mw/namespace.hpp
 -
 core/mw/BaseSubscriber.hpp
@@ -1006,41 +1006,41 @@ core/mw/Message.hpp
 core/mw/Topic.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/BaseSubscriberQueue.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/BaseSubscriberQueue.cpp
 core/mw/namespace.hpp
 -
 core/mw/BaseSubscriberQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/BootMsg.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/BootMsg.cpp
 core/mw/namespace.hpp
 -
 core/mw/BootMsg.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Checksummer.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Checksummer.cpp
 core/mw/namespace.hpp
 -
 core/mw/Checksummer.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/CoreConfiguration.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/CoreConfiguration.cpp
 core/mw/CoreConfiguration.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/CoreConfigurationManager.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/CoreConfigurationManager.cpp
 core/mw/namespace.hpp
 -
 core/mw/CoreConfigurationManager.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/CoreModule.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/CoreModule.cpp
 core/mw/CoreModule.hpp
 -
 ch.h
-/home/airlab/robocom/Core/core/core-mw/src/ch.h
+/home/rafael/Desktop/Core/core/core-mw/src/ch.h
 hal.h
-/home/airlab/robocom/Core/core/core-mw/src/hal.h
+/home/rafael/Desktop/Core/core/core-mw/src/hal.h
 core/hw/IWDG.hpp
 -
 core/hw/UID.hpp
@@ -1048,21 +1048,21 @@ core/hw/UID.hpp
 ModuleConfiguration.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/CoreNode.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/CoreNode.cpp
 core/mw/CoreNode.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/CoreNodeManager.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/CoreNodeManager.cpp
 core/mw/CoreNodeManager.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/LocalPublisher.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/LocalPublisher.cpp
 core/mw/namespace.hpp
 -
 core/mw/LocalPublisher.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/LocalSubscriber.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/LocalSubscriber.cpp
 core/mw/namespace.hpp
 -
 core/mw/LocalSubscriber.hpp
@@ -1070,7 +1070,7 @@ core/mw/LocalSubscriber.hpp
 core/mw/Node.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Message.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Message.cpp
 core/mw/namespace.hpp
 -
 core/mw/Message.hpp
@@ -1078,13 +1078,13 @@ core/mw/Message.hpp
 cstring
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/MessagePtrQueue.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/MessagePtrQueue.cpp
 core/mw/namespace.hpp
 -
 core/mw/MessagePtrQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Middleware.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Middleware.cpp
 core/mw/namespace.hpp
 -
 core/mw/Middleware.hpp
@@ -1110,7 +1110,7 @@ core/mw/Subscriber.hpp
 core/os/ScopedLock.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Node.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Node.cpp
 core/mw/namespace.hpp
 -
 core/mw/Node.hpp
@@ -1126,25 +1126,25 @@ core/mw/Publisher.hpp
 core/mw/Subscriber.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/RemotePublisher.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/RemotePublisher.cpp
 core/mw/namespace.hpp
 -
 core/mw/RemotePublisher.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/RemoteSubscriber.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/RemoteSubscriber.cpp
 core/mw/namespace.hpp
 -
 core/mw/RemoteSubscriber.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/TimestampedMsgPtrQueue.cpp
 core/mw/namespace.hpp
 -
 core/mw/TimestampedMsgPtrQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Topic.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Topic.cpp
 core/mw/namespace.hpp
 -
 core/mw/Topic.hpp
@@ -1158,7 +1158,7 @@ core/mw/Message.hpp
 core/mw/Transport.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Transport.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Transport.cpp
 core/mw/namespace.hpp
 -
 core/mw/Transport.hpp
@@ -1176,43 +1176,43 @@ core/mw/TimestampedMsgPtrQueue.hpp
 core/os/ScopedLock.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/UID.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/UID.cpp
 core/hw/UID.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/Utils.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/Utils.cpp
 core/mw/namespace.hpp
 -
 core/mw/Utils.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/core-mw.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/core-mw.cpp
 
-/home/airlab/robocom/Core/core/core-mw/src/impl/ArrayQueue_.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/impl/ArrayQueue_.cpp
 core/mw/namespace.hpp
 -
 core/mw/ArrayQueue.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/impl/SimplePool_.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/impl/SimplePool_.cpp
 core/mw/namespace.hpp
 -
 core/mw/impl/SimplePool_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/impl/StaticList_.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/impl/StaticList_.cpp
 core/mw/namespace.hpp
 -
 core/mw/impl/StaticList_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-mw/src/impl/StaticQueue_.cpp
+/home/rafael/Desktop/Core/core/core-mw/src/impl/StaticQueue_.cpp
 core/mw/namespace.hpp
 -
 core/mw/impl/StaticQueue_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/Condition.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/Condition.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1220,7 +1220,7 @@ core/common.hpp
 core/os/impl/Condition_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/MemoryPool.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/MemoryPool.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1228,7 +1228,7 @@ core/common.hpp
 core/os/impl/MemoryPool_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/Mutex.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/Mutex.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1236,13 +1236,13 @@ core/common.hpp
 core/os/impl/Mutex_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/ScopedLock.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/ScopedLock.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/Semaphore.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/Semaphore.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1250,7 +1250,7 @@ core/common.hpp
 core/os/impl/Semaphore_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/SpinEvent.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/SpinEvent.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1262,7 +1262,7 @@ core/os/Time.hpp
 core/os/Thread.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/SysLock.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/SysLock.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1270,7 +1270,7 @@ core/common.hpp
 core/os/impl/SysLock_.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/Thread.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/Thread.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1280,7 +1280,7 @@ core/os/impl/Thread_.hpp
 core/os/MemoryPool.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/Time.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/Time.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1288,9 +1288,9 @@ core/common.hpp
 limits
 -
 
-/home/airlab/robocom/Core/core/core-os/include/core/os/namespace.hpp
+/home/rafael/Desktop/Core/core/core-os/include/core/os/namespace.hpp
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Condition_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/Condition_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1300,7 +1300,7 @@ core/os/Time.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/MemoryPool_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/MemoryPool_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1308,7 +1308,7 @@ core/common.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Mutex_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/Mutex_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1316,7 +1316,7 @@ core/common.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Semaphore_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/Semaphore_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1326,7 +1326,7 @@ core/os/Time.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SpinEvent_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/SpinEvent_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1338,7 +1338,7 @@ core/os/Thread.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/SysLock_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/SysLock_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1346,7 +1346,7 @@ core/common.hpp
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/include/core/os/impl/Thread_.hpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/include/core/os/impl/Thread_.hpp
 core/os/namespace.hpp
 -
 core/common.hpp
@@ -1358,19 +1358,19 @@ core/os/impl/MemoryPool_.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Stubs.cpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/Stubs.cpp
 osal.h
-/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/osal.h
+/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/osal.h
 stdio.h
 -
 errno.h
 -
 osal.h
-/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/osal.h
+/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/osal.h
 ch.h
 -
 
-/home/airlab/robocom/Core/core/core-os/port/chibios/src/impl/Time_.cpp
+/home/rafael/Desktop/Core/core/core-os/port/chibios/src/impl/Time_.cpp
 core/os/namespace.hpp
 -
 core/os/Time.hpp
@@ -1380,15 +1380,15 @@ ch.h
 limits
 -
 
-/home/airlab/robocom/Core/core/core-os/src/Time.cpp
+/home/rafael/Desktop/Core/core/core-os/src/Time.cpp
 core/mw/namespace.hpp
 -
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/Core/core/core-os/src/core-os.cpp
+/home/rafael/Desktop/Core/core/core-os/src/core-os.cpp
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANPublisher.hpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANPublisher.hpp
 rtcan.h
 -
 core/mw/namespace.hpp
@@ -1400,7 +1400,7 @@ core/mw/RemotePublisher.hpp
 core/mw/StaticList.hpp
 -
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANSubscriber.hpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANSubscriber.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -1414,9 +1414,9 @@ core/mw/StaticList.hpp
 core/mw/BaseSubscriberQueue.hpp
 -
 rtcan.h
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/rtcan.h
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/rtcan.h
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANTransport.hpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANTransport.hpp
 core/mw/namespace.hpp
 -
 core/common.hpp
@@ -1440,19 +1440,19 @@ core/os/Thread.hpp
 core/os/MemoryPool.hpp
 -
 rtcan.h
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/rtcan.h
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/rtcan.h
 RTCANPublisher.hpp
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANPublisher.hpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANPublisher.hpp
 RTCANSubscriber.hpp
-/home/airlab/robocom/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANSubscriber.hpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/include/core/mw/transport/RTCANSubscriber.hpp
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANPublisher.cpp
 core/mw/namespace.hpp
 -
 core/mw/transport/RTCANPublisher.hpp
 -
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANSubscriber.cpp
 core/mw/namespace.hpp
 -
 core/mw/transport/RTCANSubscriber.hpp
@@ -1462,11 +1462,11 @@ core/mw/transport/RTCANTransport.hpp
 core/mw/Topic.hpp
 -
 hal.h
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/hal.h
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/hal.h
 board.h
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/board.h
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/board.h
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/RTCANTransport.cpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/RTCANTransport.cpp
 core/mw/namespace.hpp
 -
 core/mw/transport/RTCANTransport.hpp
@@ -1484,39 +1484,39 @@ ch.h
 hal.h
 -
 
-/home/airlab/robocom/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp
+/home/rafael/Desktop/Core/core/core-transport-rtcan/src/core-transport-rtcan.cpp
 
-/home/airlab/robocom/Core/core/core-utils/src/core-utils.cpp
+/home/rafael/Desktop/Core/core/core-utils/src/core-utils.cpp
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/Module.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/Module.hpp
 ModuleConfiguration.hpp
 -
 core/mw/CoreModule.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/ModuleConfiguration.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/ModuleConfiguration.hpp
 core/os/Time.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/board.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/board.h
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/chconf.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/chconf.h
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/halconf.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/halconf.h
 mcuconf.h
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/mcuconf.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/mcuconf.h
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/include/proximity/mcuconf.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/include/proximity/mcuconf.h
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/src/Module.cpp
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/src/Module.cpp
 core/mw/Middleware.hpp
 -
 core/mw/transport/RTCANTransport.hpp
 -
 ch.h
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/src/ch.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/src/ch.h
 hal.h
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/modules/proximity/src/hal.h
+/home/rafael/Desktop/Robocom-firmware/generated/modules/proximity/src/hal.h
 core/hw/GPIO.hpp
 -
 core/os/Thread.hpp
@@ -1524,11 +1524,11 @@ core/os/Thread.hpp
 Module.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/common_msgs/include/core/common_msgs/Led.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/common_msgs/include/core/common_msgs/Led.hpp
 core/mw/CoreMessage.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/Publisher.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include/core/led/Publisher.hpp
 core/mw/CoreNode.hpp
 -
 core/mw/Publisher.hpp
@@ -1538,11 +1538,11 @@ core/common_msgs/Led.hpp
 core/led/PublisherConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/PublisherConfiguration.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include/core/led/PublisherConfiguration.hpp
 core/mw/CoreConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/Subscriber.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include/core/led/Subscriber.hpp
 core/mw/CoreNode.hpp
 -
 core/mw/Subscriber.hpp
@@ -1552,11 +1552,11 @@ core/common_msgs/Led.hpp
 core/led/SubscriberConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/include/core/led/SubscriberConfiguration.hpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/include/core/led/SubscriberConfiguration.hpp
 core/mw/CoreConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Publisher.cpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/Publisher.cpp
 core/led/Publisher.hpp
 -
 core/mw/Middleware.hpp
@@ -1564,11 +1564,11 @@ core/mw/Middleware.hpp
 core/common.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/PublisherConfiguration.cpp
 core/led/PublisherConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/Subscriber.cpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/Subscriber.cpp
 core/led/Subscriber.hpp
 -
 Module.hpp
@@ -1580,11 +1580,11 @@ core/common.hpp
 core/hw/GPIO.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp
+/home/rafael/Desktop/Robocom-firmware/generated/packages/led/src/SubscriberConfiguration.cpp
 core/led/SubscriberConfiguration.hpp
 -
 
-/home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/proximity/main.cpp
+/home/rafael/Desktop/Robocom-firmware/src/targets/proximity/main.cpp
 ModuleConfiguration.hpp
 -
 Module.hpp

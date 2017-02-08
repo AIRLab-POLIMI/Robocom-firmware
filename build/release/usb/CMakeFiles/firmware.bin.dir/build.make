@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb
+CMAKE_SOURCE_DIR = /home/rafael/Desktop/Robocom-firmware/src/targets/usb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb
+CMAKE_BINARY_DIR = /home/rafael/Desktop/Robocom-firmware/build/release/usb
 
 # Utility rule file for firmware.bin.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/airlab/robocom/robocom_controller/Robocom-firmware/buil
 include CMakeFiles/firmware.bin.dir/progress.make
 
 CMakeFiles/firmware.bin: firmware
-	/home/airlab/robocom/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary firmware firmware.bin
+	/home/rafael/Desktop/Core/core/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary firmware firmware.bin
 
 firmware.bin: CMakeFiles/firmware.bin
 firmware.bin: CMakeFiles/firmware.bin.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/firmware.bin.dir/clean:
 .PHONY : CMakeFiles/firmware.bin.dir/clean
 
 CMakeFiles/firmware.bin.dir/depend:
-	cd /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb /home/airlab/robocom/robocom_controller/Robocom-firmware/src/targets/usb /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb /home/airlab/robocom/robocom_controller/Robocom-firmware/build/release/usb/CMakeFiles/firmware.bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rafael/Desktop/Robocom-firmware/build/release/usb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Desktop/Robocom-firmware/src/targets/usb /home/rafael/Desktop/Robocom-firmware/src/targets/usb /home/rafael/Desktop/Robocom-firmware/build/release/usb /home/rafael/Desktop/Robocom-firmware/build/release/usb /home/rafael/Desktop/Robocom-firmware/build/release/usb/CMakeFiles/firmware.bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/firmware.bin.dir/depend
 
