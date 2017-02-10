@@ -1,0 +1,9 @@
+{
+  "name": "differential_drive_kinematics",
+  "description": "Differential Drive kinematics package",
+  "provider": "core",
+  "sources": [
+    "Forward.cpp",
+    "Inverse.cpp"
+   ]
+}

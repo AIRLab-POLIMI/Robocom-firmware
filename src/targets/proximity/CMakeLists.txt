@@ -18,4 +18,6 @@ SET( PROJECT_SOURCES
 core_target_module(
   MODULE proximity
   OS_VERSION CHIBIOS_3
+  PACKAGES
+    sonar_publisher
 )

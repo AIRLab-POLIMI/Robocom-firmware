@@ -1,7 +1,8 @@
 ros_lib/
 build/
-generate/
+generated/
 RemoteSystemsTempFiles/
 setup.sh
 WORKSPACE.json
 .metadata/
+*.launch

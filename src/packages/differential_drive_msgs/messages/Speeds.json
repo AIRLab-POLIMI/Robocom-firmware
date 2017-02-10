@@ -1,0 +1,20 @@
+{
+  "name": "Speeds",
+  "description": "Speed",
+  "namespace": "@",
+  "fields": [
+    {
+      "name": "left",
+      "description": "The left wheel speed",
+      "type": "FLOAT32",
+      "size": 1
+    },
+    {
+      "name": "right",
+      "description": "The right wheel speed",
+      "type": "FLOAT32",
+      "size": 1
+    }
+
+  ]
+}

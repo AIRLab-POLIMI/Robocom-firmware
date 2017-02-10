@@ -2,7 +2,7 @@
   "name": "motor_right",
   "description": "motor_right",
   "module": "dc",
-  "required_packages": [],
+  "required_packages": ["pid_ie"],
   "sources": [
     "main.cpp"
   ],
