@@ -43,3 +43,14 @@ per flashare: lancio openocd da eclipse. Se dice 6 breakpoint 4 watchpoings va b
 1) aprire openocd
 2) lanciare da debug il package da controllare
 3) lanciare roslaunch rosserial_core serial_node.launch
+
+
+COME AGGIUNGERE UN MESSAGGIO ROS:
+
+1) metti il tuo messaggio in un workspace ros
+2) compili il workspace ros
+3) ti assicuri che roscd <pacchetto messaggio> funzioni
+4) cancelli la cartella, che mi pare si chiami lib, dentro al modulo usb
+5) rigeneri la cartella lib con uno script python che c'è in rosserial core
+se non sbaglio, il comando da dare, posto che ti trovi dentro la cartella in cui c'è il main è:
+rosrun rosserial_core make_libraries.py .
