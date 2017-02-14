@@ -16,7 +16,7 @@
 //ROS msgs
 #include <geometry_msgs/Twist.h>
 // TODO CHECK HOW WE WILL CALL IT!
-//#include <robocomm_msg/Proximity.h>
+#include <robocom_msgs/Proximity.h>
 //#include <triskar_msgs/IR.h>
 
 #define USE_USB_SERIAL 1
@@ -86,13 +86,13 @@ private:
 
 	//ROS
 	geometry_msgs::Twist ros_twist_msg;
-
+	robocom_msgs::Proximity ros_proximity_msg;
 	// TODO: GEOMETRY VECTOR3 IS A 2D MESSAGE WHICH REPRESENTS 2 ENCODER. THE THIRD IS SET TO 0. 
 	geometry_msgs::Vector3 ros_enc_msg; //TODO change
 
 	ros::Publisher twist_pub;
 	// TODO QUI COSA FARE
-	//ros::Publisher proximity_pub;
+	ros::Publisher proximity_pub;
 	ros::Publisher enc_pub;
 	ros::Subscriber<geometry_msgs::Twist> setpoint_sub;
 

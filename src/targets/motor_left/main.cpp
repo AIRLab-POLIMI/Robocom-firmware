@@ -32,7 +32,7 @@ extern "C" {
    int
    main()
    {
-	  const float period = 50.0;
+	  const float period = 10.0;
 	  const float pwmMax = 1.0;
 
 	  module.initialize();
@@ -41,7 +41,7 @@ extern "C" {
       // Module configuration
       core::QEI_driver::QEI_DeltaConfiguration qei_configuration;
       qei_configuration.period = period;
-      qei_configuration.ticks  = 1000;	// TODO check this value
+      qei_configuration.ticks  = 2000;	// TODO check this value
       module.qei.setConfiguration(qei_configuration);
 
       // Nodes configuration

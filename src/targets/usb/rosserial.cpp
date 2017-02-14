@@ -23,10 +23,10 @@ RosSerialPublisher::RosSerialPublisher(const char* name,
 		CoreNode::CoreNode(name, priority),
 		twist_pub(twist_name, &ros_twist_msg),
 		//TODO BISOGNA RIFARE MESSAGGIO PROXIMITY LATO ROS
-		//proximity_pub(ir_name, &ros_ir_msg),
+		proximity_pub(proximity_name, &ros_proximity_msg),
 		enc_pub(enc_name, &ros_enc_msg),
 		setpoint_sub(setpointName, RosSerialPublisher::setpointCallback)
-
+{
 	_workingAreaSize = 1024;
 	twist = false;
 	//pixy = false;
@@ -44,7 +44,6 @@ bool RosSerialPublisher::onPrepareMW() {
 
 	_subscriberProximity.set_callback(proximityCallback);
 	subscribe(_subscriberProximity, proximity_name);
-
 
 	_subscriberEncoder[0].set_callback(encoderCallback_0);
 	subscribe(_subscriberEncoder[0], "encoder_right");
@@ -81,9 +80,8 @@ bool RosSerialPublisher::proximityCallback(const core::sensor_msgs::Proximity& m
 {
 	RosSerialPublisher* tmp = static_cast<RosSerialPublisher*>(node);
 
-	// TODO rimettere qui proximity publisher. Riempire messaggio ROS proximity (formerly IR)
-	//for( unsigned int i = 0; i < 8; i++)
-	//	tmp->ros_ir_msg.range[i] = msg.value[i];
+	for(unsigned int i = 0; i < 8; i++)
+		tmp->ros_proximity_msg.range[i] = msg.value[i];
 
 
 	tmp->proximity = true;
@@ -144,11 +142,10 @@ bool RosSerialPublisher::onStart()
 	nh.initNode();
 	nh.advertise(twist_pub);
 	// TODO DA RIAGGIUNGERE PUBLISHER DI PROXIMITY
-	//nh.advertise(proximity_pub);
+	nh.advertise(proximity_pub);
 	nh.advertise(enc_pub);
 
 	nh.subscribe(setpoint_sub);
-
 
 
 	nh.spinOnce();
@@ -174,8 +171,7 @@ bool RosSerialPublisher::onLoop() {
 
 		if(proximity)
 		{
-			// TODO ANCHE QUI
-			//ir_pub.publish(&ros_ir_msg);
+			proximity_pub.publish(&ros_proximity_msg);
 			proximity = false;
 		}
 

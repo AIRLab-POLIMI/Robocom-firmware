@@ -23,6 +23,8 @@ core_target_module(
   MODULE usb
   OS_VERSION CHIBIOS_3
   PACKAGES
+    actuator_msgs
     sensor_msgs
     differential_drive_msgs
+    differential_drive_kinematics
 )

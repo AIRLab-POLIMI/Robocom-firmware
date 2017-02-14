@@ -2,7 +2,7 @@
   "name": "usb",
   "description": "usb",
   "module": "usb",
-  "required_packages": ["sensor_msgs", "differential_drive_msgs"],
+  "required_packages": ["actuator_msgs","sensor_msgs", "differential_drive_msgs", "differential_drive_kinematics"],
   "sources": [
 	"main.cpp",
 	"rosserial.cpp",

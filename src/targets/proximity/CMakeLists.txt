@@ -20,4 +20,5 @@ core_target_module(
   OS_VERSION CHIBIOS_3
   PACKAGES
     sonar_publisher
+    sensor_msgs
 )
