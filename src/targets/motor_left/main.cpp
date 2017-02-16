@@ -1,3 +1,6 @@
+/*
+ * DC_LEFT
+ */
 #include <ModuleConfiguration.hpp>
 #include <Module.hpp>
 
@@ -41,7 +44,8 @@ extern "C" {
       // Module configuration
       core::QEI_driver::QEI_DeltaConfiguration qei_configuration;
       qei_configuration.period = period;
-      qei_configuration.ticks  = 2000;	// TODO check this value
+      qei_configuration.ticks  = 2000*74.0f;
+      qei_configuration.invert = 0;
       module.qei.setConfiguration(qei_configuration);
 
       // Nodes configuration
@@ -52,7 +56,7 @@ extern "C" {
       // TODO tune pid constants
       core::actuator_subscriber::SpeedConfiguration pid_configuration;
       pid_configuration.kp = 0.15;
-      pid_configuration.ti = 0.037;
+      pid_configuration.ti = 0.0;
       pid_configuration.td = 0;
       pid_configuration.ts = period/1000.0;
       pid_configuration.min = -pwmMax;

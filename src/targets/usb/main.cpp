@@ -63,7 +63,7 @@ extern "C" {
       for_conf.left_input = "encoder_left";
       for_conf.right_input = "encoder_right";
       for_conf.output = "vel";
-
+      forward.setConfiguration(for_conf);
       // Add nodes to the node manager (== board)...
       module.add(inverse);
       module.add(forward);

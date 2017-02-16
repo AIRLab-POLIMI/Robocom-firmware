@@ -129,6 +129,7 @@ void RosSerialPublisher::setpointCallbackPrivate(const geometry_msgs::Twist& set
 	 if (_cmd_publisher.alloc(msgp))
 	 {
 		 // TODO qui devo cambiare messaggio e mettere messaggio solo linear angular con differential drive
+
 		 msgp->linear = setpoint_msg.linear.x;
 		 msgp->angular = setpoint_msg.angular.z;
 
@@ -163,6 +164,18 @@ bool RosSerialPublisher::onLoop() {
 
 	if(this->spin(core::os::Time::ms(1)))
 	{
+//		core::differential_drive_msgs::Velocity* msgp;
+//
+//		 if (_cmd_publisher.alloc(msgp))
+//		 {
+//			 // TODO qui devo cambiare messaggio e mettere messaggio solo linear angular con differential drive
+//
+//			 msgp->linear = setpoint_msg.linear.x;
+//			 msgp->angular = setpoint_msg.angular.z;
+//
+//			 _cmd_publisher.publish(*msgp);
+//		 }
+//
 		if(twist)
 		{
 			twist_pub.publish(&ros_twist_msg);
