@@ -48,18 +48,18 @@ extern "C" {
 
       // Kinematics
       core::differential_drive_kinematics::InverseConfiguration inv_conf;
-      inv_conf.distance = 0.45f;
-      inv_conf.left_radius = 0.3;
-      inv_conf.right_radius = 0.3f;
+      inv_conf.distance = 0.457f;
+      inv_conf.left_radius = 0.2644444/2.0;
+      inv_conf.right_radius = 0.2644444/2.0;
       inv_conf.velocity_input = "cmd_vel";
       inv_conf.left_output = "speed_left";
       inv_conf.right_output = "speed_right";
       inverse.setConfiguration(inv_conf);
 
       core::differential_drive_kinematics::ForwardConfiguration for_conf;
-      for_conf.distance = 0.45f;
-      for_conf.left_radius = 0.3;
-      for_conf.right_radius = 0.3f;
+      for_conf.distance = 0.457f;
+      for_conf.left_radius = 0.2644444/2.0;
+      for_conf.right_radius = 0.2644444/2.0;
       for_conf.left_input = "encoder_left";
       for_conf.right_input = "encoder_right";
       for_conf.output = "vel";

@@ -70,7 +70,7 @@ Inverse::callback(
    /// DO THE MATH
    if (_this->_left_wheel_publisher.alloc(left_speed)) {
       /// PUBLISH THE RESULTS
-      left_speed->value = (1 / lr) * (v + (d / 2) * omega);
+      left_speed->value = -(1 / lr) * (v - (d / 2) * omega);
       if (!_this->_left_wheel_publisher.publish(left_speed)) {
          return false;
       }
@@ -78,7 +78,7 @@ Inverse::callback(
 
    if (_this->_right_wheel_publisher.alloc(right_speed)) {
       /// PUBLISH THE RESULTS
-      right_speed->value = -(1 / rr) * (v - (d / 2) * omega);
+      right_speed->value = (1 / rr) * (v + (d / 2) * omega);
 
       if (!_this->_right_wheel_publisher.publish(right_speed)) {
          return false;

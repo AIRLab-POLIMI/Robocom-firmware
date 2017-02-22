@@ -55,7 +55,7 @@ Forward::onLoop()
          float rr = configuration().right_radius;
 
          /// PUBLISH THE RESULTS
-         velocity->linear  = ((_speed_left * lr) - (_speed_right * rr)) * 0.5f;
+         velocity->linear  = (-(_speed_left * lr) + (_speed_right * rr)) * 0.5f;
          velocity->angular = ((_speed_left * lr) + (_speed_right * rr)) / d;
 
          _publisher.publish(velocity);

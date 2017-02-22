@@ -56,9 +56,9 @@ extern "C" {
 
       // TODO tune pid constants
       core::actuator_subscriber::SpeedConfiguration pid_configuration;
-      pid_configuration.kp = 0.15;
-	  pid_configuration.ti = 0.0;
-	  pid_configuration.td = 0.0;
+      pid_configuration.kp = 0.35*0.45;
+	  pid_configuration.ti = 1.591/20;
+	  pid_configuration.td = 0;
 	  pid_configuration.ts = period/1000.0;
 	  pid_configuration.min = -pwmMax;
 	  pid_configuration.max = pwmMax;
